@@ -1,10 +1,10 @@
 import styled from "styled-components";
 import { Link } from "react-scroll";
+import { LightText } from "./Typography";
 
 const NavContainer = styled.nav`
   height: 50px;
-  left: 50%;
-  transform: translate(-50%, 50%);
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +12,6 @@ const NavContainer = styled.nav`
   position: fixed;
   top: 0;
   z-index: 1;
-  background-color: rgba(255, 255, 255, 0.9);
 
   @media only screen and (max-width: 450px) {
     visibility: hidden;
@@ -39,16 +38,16 @@ const Navbar = () => {
   return (
     <NavContainer>
       <NavItem to="/">
-        Hello
+        <LightText>Welcome</LightText>
       </NavItem>
       <NavItem to="/">
-        Hello
+        <LightText>Education</LightText>
       </NavItem>
       <NavItem to="/">
-        Hello
+        <LightText>Experiences</LightText>
       </NavItem>
       <NavItem to="/">
-        Hello
+        <LightText>Projects</LightText>
       </NavItem>
     </NavContainer>
   );

@@ -11,7 +11,7 @@ const RESUME_LINK = "https://drive.google.com/file/d/1DNCR5e3j4j08TBcrqZ2wgBG60O
 const Hero = () => {
   return (
     <Section backgroundColor="#C7E1FF">
-      <div className="hero-container">
+      <div className="content-container">
         <div className="content">
           <div className="text-wrapper text-right">
             <Title>

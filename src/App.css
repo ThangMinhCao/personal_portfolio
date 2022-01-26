@@ -7,12 +7,18 @@
   font-family: Roboto;
 }
 
+.content-container {
+  padding-top: 40px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
 .container {
   scroll-snap-type: y proximity;
-  scroll-margin-top: 20vh;
+  scroll-margin-top: 10vh;
   overflow-y: auto;
   height: 100vh;
-  /* scroll-behavior: smooth; */
 }
 
 .content {
@@ -33,6 +39,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 10px;
 }
 
 .image-cropper {
