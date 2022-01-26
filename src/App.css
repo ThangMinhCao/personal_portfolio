@@ -8,11 +8,11 @@
 }
 
 .content-container {
-  padding-top: 40px;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
   position: relative;
+  justify-content: space-between;
 }
 
 .container {
@@ -56,12 +56,12 @@
 }
 
 @media only screen and (max-width: 1000px) {
-  .text-no-wrap {
-    white-space: normal;
-  }
-
   .links {
     flex-direction: row;
+  }
+
+  .text-wrapper {
+    flex: 2;
   }
 
   .text-wrapper > * {
@@ -70,7 +70,7 @@
 
   .content {
     flex-direction: column;
-    padding: 50px;
+    padding: 30px;
   }
 
   .image-cropper {
@@ -81,7 +81,7 @@
   } 
 
   .image-container {
-    flex: 0;
+    flex: 1;
     margin-bottom: 30px;
   }
 }
