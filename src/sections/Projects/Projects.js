@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import Section from "../../components/Section"; 
 
 const Projects = () => {

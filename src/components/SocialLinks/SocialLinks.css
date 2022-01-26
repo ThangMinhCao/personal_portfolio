@@ -1,0 +1,52 @@
+.links {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  right: 20px;
+  bottom: 20px;
+}
+
+.linkedin-button {
+  background: url(../../assets/linkedin_icon.svg);
+}
+
+.github-button {
+  background: url(../../assets/github_icon.svg);
+}
+
+.gitlab-button {
+  background: url(../../assets/gitlab_icon.svg);
+}
+
+.resume-button {
+  background: url(../../assets/resume_icon.svg);
+}
+
+.icon-button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+}
+
+.icon-button:hover {
+  opacity: 0.8;
+  border-right: 3px dotted black;
+  transition: border-bottom 0.1s;
+}
+
+@media only screen and (max-width: 1000px) {
+  .links {
+    flex-direction: row;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 20px;
+  }
+}

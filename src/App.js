@@ -4,12 +4,11 @@ import Hero from "./sections/Hero/Hero";
 import Education from "./sections/Education/Education";
 import Experiences from "./sections/Experiences/Experiences";
 import Projects from "./sections/Projects/Projects";
-import { useEffect } from "react";
 
 function App() {
   return (
     <div className="container">
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <Education />
       <Experiences />
