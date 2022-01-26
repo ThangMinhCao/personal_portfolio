@@ -13,7 +13,7 @@ const Hero = () => {
     <Section backgroundColor="#C7E1FF">
       <div className="hero-container">
         <div className="content">
-          <div className="welcome-wrapper">
+          <div className="text-wrapper text-right">
             <Title>
               HI THERE!
             </Title>

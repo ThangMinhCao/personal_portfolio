@@ -2,8 +2,9 @@ import styled from "styled-components";
 import { Link } from "react-scroll";
 
 const NavContainer = styled.nav`
-  height: 70px;
-  width: 100vw;
+  height: 50px;
+  left: 50%;
+  transform: translate(-50%, 50%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,6 +12,11 @@ const NavContainer = styled.nav`
   position: fixed;
   top: 0;
   z-index: 1;
+  background-color: rgba(255, 255, 255, 0.9);
+
+  @media only screen and (max-width: 450px) {
+    visibility: hidden;
+  }
 `
 
 const NavItem = styled(Link)`
