@@ -1,9 +1,9 @@
 import "./SocialLinks.css";
+import Resume from  "../../assets/MinhThangCao_Resume.pdf";
 
 const LINKEDIN_LINK = "https://www.linkedin.com/in/minhthangcao/";
 const GITHUB_LINK = "https://github.com/ThangMinhCao";
 const GITLAB_LINK = "https://gitlab.com/ThangMinhCao";
-const RESUME_LINK = "https://drive.google.com/file/d/1DNCR5e3j4j08TBcrqZ2wgBG60OpfBRNJ/view?usp=sharing";
 
 const SocialLinks = () => {
   return (
@@ -17,7 +17,7 @@ const SocialLinks = () => {
       <a target="_blank" rel="noopener noreferrer" href={GITLAB_LINK}>
         <button className="icon-button gitlab-button" />
       </a>
-      <a target="_blank" rel="noopener noreferrer" href={RESUME_LINK}>
+      <a target="_blank" rel="noopener noreferrer" href={Resume}>
         <button className="icon-button resume-button" />
       </a>
     </div>

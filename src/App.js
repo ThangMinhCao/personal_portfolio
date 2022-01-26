@@ -2,7 +2,7 @@ import "./App.css";
 // import Navbar from "./components/Navbar";
 import Hero from "./sections/Hero/Hero";
 import Education from "./sections/Education/Education";
-import Experiences from "./sections/Experiences/Experiences";
+import Experience from "./sections/Experience/Experience";
 import Projects from "./sections/Projects/Projects";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       {/* <Navbar /> */}
       <Hero />
       <Education />
-      <Experiences />
+      <Experience />
       <Projects />
     </div>
   );

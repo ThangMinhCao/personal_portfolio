@@ -5,7 +5,7 @@ import "./Education.css";
 
 const Education = () => {
   return (
-    <Section backgroundColor="#FFC7C7">
+    <Section backgroundColor="#F6A3A3">
         <div className="content-container">
           <div className="content">
             <div className="image-container">
