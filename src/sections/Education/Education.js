@@ -22,7 +22,7 @@ const Education = () => {
                 From 09/2019 - 05/2023 (Expected)
               </Subtitle>
               <LightText>
-                Bachelor's Degree of Computer Science,
+                Bachelor's Degree of <span className="text-no-wrap">Computer Science,</span>
                 <br/>
                 Co-operative Education
                 <br/>

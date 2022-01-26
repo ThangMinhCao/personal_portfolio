@@ -1,5 +1,5 @@
-import Section from "../../components/Section"; 
-import { Title, LightText } from "../../components/Typography";
+import Section from "../../components/Section";
+import { Title, LightText, MediumText } from "../../components/Typography";
 import portrait from "../../assets/PortraitCropped.jpg";
 import SocialLinks from "../../components/SocialLinks/SocialLinks";
 import "./Hero.css";
@@ -10,17 +10,13 @@ const Hero = () => {
       <div className="content-container">
         <div className="content">
           <div className="text-wrapper text-right">
-            <Title>
-              HI THERE!
-            </Title>
-            <Title>
-              IT'S THANG.
-            </Title>
+            <MediumText>HI THERE!</MediumText>
+            <Title>IT'S THANG.</Title>
             <LightText>
-              Third-year Computer Science student
-              <br/>
-              at Carleton University a.k.a tech and music lover.
+              Third-year CS student at{" "}
+              <span className="text-no-wrap">Carleton University</span>
             </LightText>
+            <LightText>a.k.a tech and music lover.</LightText>
           </div>
 
           <div className="image-container">
@@ -33,7 +29,7 @@ const Hero = () => {
         <SocialLinks />
       </div>
     </Section>
-  )
-}
+  );
+};
 
 export default Hero;

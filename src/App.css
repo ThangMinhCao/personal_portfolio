@@ -35,6 +35,10 @@
   justify-content: center;
 }
 
+.text-no-wrap {
+  white-space: nowrap;
+}
+
 .image-container {
   flex: 1;
   display: flex;
@@ -52,6 +56,10 @@
 }
 
 @media only screen and (max-width: 1000px) {
+  .text-no-wrap {
+    white-space: normal;
+  }
+
   .links {
     flex-direction: row;
   }

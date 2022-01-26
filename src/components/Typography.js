@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-const bodySize = "calc(25px + 0.5vw)";
-const titleSize = "calc(40px + 2vw)";
+const bodySize = "calc(20px + 1vw)";
+const titleSize = "calc(45px + 1.5vw)";
 const subtitleSize = "calc(22px + 0.5vw)";
 
 export const LightText = styled.span`
