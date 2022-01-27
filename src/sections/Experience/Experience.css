@@ -1,6 +1,21 @@
 .experience-container {
   /* background-color: #FFE7A9; */
   background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.exp-title-container {
+  flex: 1;
+  padding: 40px;
+}
+
+.exp-title {
+  position: sticky;
+  top: 40%;
+  width: fit-content;
+  text-align: end;
+  margin: auto;
 }
 
 .timeline {

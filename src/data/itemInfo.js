@@ -23,14 +23,14 @@ export const info = {
       logo: KinaxisLogo,
       title: "Software Engineering Intern",
       date: "05/2021 - 08/2021",
-      description: "Investigated and implemented in C++ a specialized product structure cycle detection graph algorithm that combines variances of strongly connected components and cycles enumeration algorithms. Enhanced the running time and output reports of Kinaxis's related analytics algorithm."
+      description: "Investigated and implemented in C++ a specialized product structure cycle detection graph algorithm that combines variances of strongly connected components and cycles enumeration algorithms. Enhanced the running time and output reports of the product's related analytics feature."
     },
     {
       company: "CU Blueprint",
       logo: BlueprintLogo,
       title: "Volunteer Front-end Developer",
       date: "09/2020 - 08/2021",
-      description: "Using React, coordinated with backend developers and designers to build a CRM full-stack web app for a non-profit organization that significantly improves the processing time of their services."
+      description: "Using React, coordinated with back-end developers and designers to build a CRM full-stack web app for a non-profit organization that significantly improves the processing time of their services."
     },
     {
       company: "Carleton University",
@@ -44,7 +44,7 @@ export const info = {
       logo: CarletonLogo,
       title: "Undergraduate Researcher",
       date: "05/2020 - 05/2020",
-      description: "Explored a divide-and-conquer algorithm that calculates the closest-pair distance of points on multi-dimensional spaces without knowing their coordinates, using the doubling dimension definition. Implemented the algorithm from scratch with C++ and Boost library, then proved its logarithmic running time hypothesis."
+      description: "Explored a divide-and-conquer algorithm that calculates the closest-pair distance of points on multi-dimensional spaces without knowing their coordinates, using the doubling dimension concept. Implemented the algorithm from scratch with C++ and Boost library, then proved its logarithmic running time hypothesis."
     },
   ]
 }
