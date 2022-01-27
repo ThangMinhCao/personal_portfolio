@@ -1,3 +1,43 @@
 .project-container {
-  background-color: #7dc2ad;
+  background-color: #42AC9D;
+  display: flex; 
+  padding: 30px;
+}
+
+.project-list {
+  flex: 1;
+}
+
+/* .project-title-container {
+  display: flex;
+}
+
+.project-title {
+  position: sticky;
+  width: fit-content;
+  bottom: 30%;
+  text-align: end;
+  margin: auto;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  color: white;
+} */
+
+.project-title-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.top-space {
+  flex: 1;
+}
+
+.project-title {
+  align-self: flex-start;
+  color: white;
+  display:inline-block;
+  position: sticky;
+  bottom: 20px;
+  text-align: end;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }

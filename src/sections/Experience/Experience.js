@@ -17,8 +17,9 @@ const Experience = () => {
       </div>
       <div className="timeline">
         {info.experiences.map(
-          ({ company, logo, title, date, description }) =>
+          ({ company, logo, title, date, description }, index) =>
             <CardItem
+              key={index}
               logo={logo}
               title={company}
               subtitle={title}
