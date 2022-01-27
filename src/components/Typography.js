@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const bodySize = "calc(20px + 1vw)";
+const bodySize = "calc(16px + 1.2vw)";
 const titleSize = "calc(40px + 1.6vw)";
 const subtitleSize = "calc(22px + 0.5vw)";
 

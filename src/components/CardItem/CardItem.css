@@ -2,18 +2,15 @@
   display: flex;
   flex-direction: column;
   min-height: 100px;
-  background: rgba(255, 255, 255, 1);
+  background: #f5f2ea;
   border-radius: 10px;
   margin-bottom: 30px;
   padding: 20px;
-  width: 100%;
   transition: box-shadow 0.15s;
   transition: background 0.25s;
   transition: color 0.1s;
   cursor: default;
-  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-  /* border: solid 1px grey; */
 }
 
 .card:hover {
@@ -23,6 +20,7 @@
 
 .heading {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -47,23 +45,26 @@
 
 .title {
   font-weight: 700;
-  font-size: 26px;
+  /* font-size: 26px; */
+  font-size: calc(17px + 0.8vw);
 }
 
 .subtitle {
   font-weight: 500;
-  font-size: 21px;
+  /* font-size: 21px; */
+  font-size: calc(12px + 0.8vw);
 }
 
 .date {
   font-weight: 300;
-  font-size: 21px;
+  /* font-size: 21px; */
+  font-size: calc(12px + 0.8vw);
   font-style: italic;
 }
 
 .description {
   margin-top: 15px;
-  font-weight: 300;
-  font-size: 21px;
-  /* text-align: justify; */
+  font-weight: 400;
+  /* font-size: 20px; */
+  font-size: calc(12px + 0.8vw);
 }

@@ -1,8 +1,11 @@
 .experience-container {
-  /* background-color: #FFE7A9; */
-  background-color: rgba(0, 0, 0, 0.1);
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  /* background: #94af82; */
   display: flex;
   flex-wrap: wrap;
+  padding: 20px;
+
+  background: linear-gradient(-65deg,#7fa9b6,#7299a5,#7cabbe);
 }
 
 .exp-title-container {
@@ -11,16 +14,17 @@
 }
 
 .exp-title {
+  color: #f5f2ea;
   position: sticky;
   top: 40%;
   width: fit-content;
   text-align: end;
   margin: auto;
+  text-shadow: -2px 2px 4px rgba(0,0,0,0.2);
 }
 
 .timeline {
-  padding: 30px;
-  overflow: hidden;
+  padding: 20px;
   position: relative;
   width: auto;
   margin: auto;
@@ -28,7 +32,6 @@
 
 @media only screen and (min-width: 1000px) {
   .timeline {
-    /* padding: 30px 200px 30px 200px; */
     width: 1000px;
     align-self: center;
   }
@@ -66,7 +69,7 @@
     width: 14px;
     background-color: black;
     border-radius: 50%;
-    transform: translate(-6px, -200%);
+    transform: translate(-6px, -170%);
     left: 50%;
   }
 

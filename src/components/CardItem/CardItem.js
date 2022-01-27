@@ -4,9 +4,11 @@ const CardItem = ({ logo, title, subtitle, date, description }) => {
   return (
     <div className="card item">
       <div className="heading">
-        <div className="logo-container">
-          <img alt="Logo" src={logo} />
-        </div>
+        {!logo ? null : (
+          <div className="logo-container">
+            <img alt="Logo" src={logo} />
+          </div>
+        )}
 
         <div className="title-container">
           <p className="title">{title}</p>
