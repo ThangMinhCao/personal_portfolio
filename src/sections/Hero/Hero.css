@@ -1,3 +1,9 @@
+.hero-container {
+  background: linear-gradient(25deg, #ffc7d7, #f5c4d2, #fff2bf, #d8ffbf, #bfffe3, #bff5ff, #b5d4f7, #a6cfff, #8ac0ff, #75b5ff, #57a5ff);
+  background-size: 200% 200%;
+  animation: gradient 5s ease infinite;
+}
+
 .text-right {
   text-align: end;
 }

@@ -5,11 +5,11 @@ import "./Education.css";
 
 const Education = () => {
   return (
-    <Section backgroundColor="#F6A3A3">
+    <Section className="edu-container">
         <div className="content-container">
           <div className="content">
             <div className="image-container">
-              <div className="image-cropper">
+              <div className="image-cropper floating">
                 <img className="image" alt="Carleton_Logo" src={carletonLogo} />
               </div>
             </div>

@@ -1,14 +1,22 @@
+.experience-container {
+  background-color: #fff3db;
+}
+
 .timeline {
   padding: 30px;
   overflow: hidden;
   position: relative;
-}
-
-.timeline ul {
-  list-style: none;
+  width: auto;
+  margin: auto;
 }
 
 @media only screen and (min-width: 1000px) {
+  .timeline {
+    /* padding: 30px 200px 30px 200px; */
+    width: 1000px;
+    align-self: center;
+  }
+
   .timeline::before {
     content: "";
     position: absolute;

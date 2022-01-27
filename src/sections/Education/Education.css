@@ -1,3 +1,26 @@
+.edu-container {
+  background: #F6A3A3;
+}
+
+.floating {
+  animation: float 2s infinite ease-in-out;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 20px);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 10px 10px 2px;
+  }
+  50% {
+    transform: translate(0, -20px);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 30px 30px 2px;
+  }
+  100% {
+    transform: translate(0, 20px);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 10px 10px 2px;
+  }
+}
+
 .text {
   text-align: start;
 }

@@ -1,8 +1,9 @@
 import Section from "../../components/Section"; 
+import "./Projects.css";
 
 const Projects = () => {
   return (
-    <Section backgroundColor="#ade6aa">
+    <Section className="project-container">
       <p>Hero</p>
     </Section>
   )

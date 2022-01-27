@@ -6,7 +6,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <Section backgroundColor="#C7E1FF">
+    <Section className="hero-container" backgroundColor="#C7E1FF">
       <div className="content-container">
         <div className="content">
           <div className="text-wrapper text-right">

@@ -55,6 +55,12 @@
   overflow: hidden;
 }
 
+@media only screen and (max-width: 600px) {
+  .container {
+    scroll-snap-type: none;
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   .links {
     flex-direction: row;
@@ -84,4 +90,16 @@
     flex: 1;
     margin-bottom: 30px;
   }
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 15% 90%;
+	}
+	50% {
+		background-position: 100% 0%;
+	}
+	100% {
+		background-position: 15% 90%;
+	}
 }

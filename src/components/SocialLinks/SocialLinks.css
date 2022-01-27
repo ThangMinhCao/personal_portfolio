@@ -33,12 +33,12 @@
   background-repeat: no-repeat;
   background-size: 80%;
   background-position: center;
+  transition: border 0.1s;
 }
 
 .icon-button:hover {
   opacity: 0.8;
   border-right: 3px dotted black;
-  transition: border-bottom 0.1s;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -48,5 +48,10 @@
     right: 0;
     bottom: 0;
     margin-bottom: 20px;
+  }
+
+  .icon-button:hover {
+    border-right: 0px dotted black;
+    border-bottom: 3px dotted black;
   }
 }

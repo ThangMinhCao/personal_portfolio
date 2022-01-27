@@ -5,7 +5,7 @@ import "./Experience.css";
 
 const Experience = () => {
   return (
-    <Section backgroundColor="#ffe196">
+    <Section className="experience-container">
       <div className="timeline">
         {info.experiences.map(
           ({ company, logo, title, date, description }) =>
