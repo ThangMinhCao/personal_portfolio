@@ -3,7 +3,7 @@
   /* background: #94af82; */
   display: flex;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 10px;
 
   background: linear-gradient(-65deg,#8dd1e6,#75b2c5,#5c9bb4);
 }
@@ -18,19 +18,23 @@
   position: sticky;
   top: 40%;
   width: fit-content;
-  text-align: end;
+  text-align: center;
   margin: auto;
   text-shadow: -2px 2px 4px rgba(0,0,0,0.2);
 }
 
 .timeline {
-  padding: 20px;
+  padding: 10px;
   position: relative;
   width: auto;
   margin: auto;
 }
 
 @media only screen and (min-width: 1000px) {
+  .exp-title {
+    text-align: end;
+  }
+
   .timeline {
     width: 1000px;
     align-self: center;
@@ -39,10 +43,10 @@
   .timeline::before {
     content: "";
     position: absolute;
-    height: calc(100% - 80px);
+    height: calc(100% - 60px);
     width: 2px;
     left: 50%;
-    top: 50px;
+    top: 30px;
     background-color: rgba(0, 0, 0, 0.8);
   }
 

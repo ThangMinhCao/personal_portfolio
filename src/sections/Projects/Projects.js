@@ -25,10 +25,10 @@ const Projects = () => {
         <div className="top-space" />
         <div className="project-title">
           <MediumText>AND</MediumText>
-          <Title>
-            WHAT'VE
+          <Title style={{ fontSize: "calc(40px + 1vw)" }}>
+            WHAT'VE BEEN
             <br />
-            COME ALONG
+            GOING ALONG
           </Title>
         </div>
       </div>

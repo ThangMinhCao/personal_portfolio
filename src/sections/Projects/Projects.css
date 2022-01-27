@@ -1,7 +1,7 @@
 .project-container {
   background-color: #42AC9D;
   display: flex; 
-  padding: 30px;
+  padding: 10px;
   flex-wrap: wrap-reverse;
   justify-content: center;
   /* align-items: center; */
@@ -9,15 +9,16 @@
 
 .project-list {
   flex: 1;
+  padding: 10px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(600px, auto));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   grid-column-gap: 30px; 
 }
 
 .project-title-container {
   display: flex;
   flex-direction: column;
-  padding: 30px;
+  padding: 20px;
 }
 
 .top-space {
@@ -35,6 +36,7 @@
 @media only screen and (max-width: 1000px) {
   .project-list {
     flex-basis: 1000px;
+    grid-template-columns: none;
   }
 
   .project-title {
