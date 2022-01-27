@@ -1,7 +1,7 @@
 .project-container {
   background-color: #42AC9D;
   display: flex; 
-  padding: 10px;
+  padding: 20px;
   flex-wrap: wrap-reverse;
   justify-content: center;
   /* align-items: center; */
@@ -9,7 +9,7 @@
 
 .project-list {
   flex: 1;
-  padding: 10px;
+  padding: 20px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   grid-column-gap: 30px; 
@@ -34,6 +34,10 @@
 }
 
 @media only screen and (max-width: 1000px) {
+  .project-list, .project-container {
+    padding: 10px;
+  }
+
   .project-list {
     flex-basis: 1000px;
     grid-template-columns: none;

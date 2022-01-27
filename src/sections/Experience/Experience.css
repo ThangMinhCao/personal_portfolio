@@ -35,6 +35,10 @@
     text-align: end;
   }
 
+  .timeline, .exp-title-container {
+    padding: 20px;
+  }
+
   .timeline {
     width: 1000px;
     align-self: center;
