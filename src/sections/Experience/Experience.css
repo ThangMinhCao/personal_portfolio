@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   padding: 10px;
 
-  background: linear-gradient(-65deg,#8dd1e6,#75b2c5,#5c9bb4);
+  background: #42AC9D;
 }
 
 .exp-title-container {
@@ -26,7 +26,6 @@
 .timeline {
   padding: 10px;
   position: relative;
-  width: auto;
   margin: auto;
 }
 
@@ -36,7 +35,7 @@
   }
 
   .timeline, .exp-title-container {
-    padding: 20px;
+    padding: 30px;
   }
 
   .timeline {
@@ -65,7 +64,7 @@
   }
 
   .timeline .item {
-    margin: 20px;
+    /* margin: 20px; */
     margin-bottom: 40px;
     width: calc(50% - 40px);
   }
