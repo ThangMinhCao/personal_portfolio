@@ -9,7 +9,7 @@ const Projects = () => {
     <Section className="project-container">
       <div className="project-list">
         {info.projects.map(
-          ({ title, subtitle, date, description, link }, index) =>
+          ({ title, subtitle, date, description, link, technologies }, index) =>
             <CardItem
               key={index}
               link={link}
@@ -17,6 +17,7 @@ const Projects = () => {
               subtitle={subtitle}
               date={date}
               description={description}
+              technologies={technologies}
             />
         )}
       </div>
