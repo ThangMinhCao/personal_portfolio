@@ -12,6 +12,7 @@ export const LightText = styled.span`
 export const MediumText = styled.span`
   font-weight: 500;
   font-size: ${bodySize};
+  text-shadow: 3px 5px 8px rgba(0,0,0,0.2);
 `;
 
 export const Subtitle = styled.span`
@@ -26,4 +27,5 @@ export const Title = styled.h1`
   font-weight: 900;
   font-size: ${titleSize};
   letter-spacing: -0.03em;
+  text-shadow: 3px 5px 8px rgba(0,0,0,0.2);
 `;
