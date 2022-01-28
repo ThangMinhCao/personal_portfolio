@@ -30,7 +30,7 @@
 
 .logo-container {
   display: flex;
-  margin-right: 10px;
+  margin-right: 20px;
   justify-content: center;
   align-items: center;
 }
@@ -40,24 +40,20 @@
   flex-direction: column;
   justify-content: center;
   flex: 2;
-  margin: 0 10px 0 10px;
 }
 
 .title {
   font-weight: 700;
-  /* font-size: 26px; */
   font-size: calc(17px + 0.8vw);
 }
 
 .subtitle {
   font-weight: 500;
-  /* font-size: 21px; */
   font-size: calc(12px + 0.8vw);
 }
 
 .date {
   font-weight: 300;
-  /* font-size: 21px; */
   font-size: calc(12px + 0.8vw);
   font-style: italic;
 }
@@ -65,6 +61,26 @@
 .description {
   margin-top: 15px;
   font-weight: 400;
-  /* font-size: 20px; */
   font-size: calc(12px + 0.8vw);
+}
+
+.code-button {
+  font-size: 30px;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  background: none;
+  border: none;
+  transition: background 0.05s;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.code-button:hover {
+  background:rgba(255, 255, 255, 0.3);
+}
+
+.card:hover button {
+  color: white;
 }

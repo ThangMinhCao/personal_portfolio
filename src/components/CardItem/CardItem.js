@@ -1,6 +1,12 @@
 import "./CardItem.css";
+import { BsCodeSlash } from "react-icons/bs";
 
-const CardItem = ({ logo, title, subtitle, date, description }) => {
+const CardItem = ({ logo, title, subtitle, date, description, technologies, link }) => {
+  const openLink = (e) => {
+    e.preventDefault();
+    window.open(link, "_blank");
+  }
+
   return (
     <div className="card item">
       <div className="heading">
@@ -15,6 +21,14 @@ const CardItem = ({ logo, title, subtitle, date, description }) => {
           <p className="subtitle">{subtitle}</p>
           <p className="date">{date}</p>
         </div>
+
+        {
+          !link ? null : (
+            <button className="code-button" onClick={openLink}>
+              <BsCodeSlash />
+            </button>
+          )
+        }
       </div>
       <p className="description">{description}</p>
     </div>

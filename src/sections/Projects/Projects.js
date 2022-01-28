@@ -8,13 +8,13 @@ const Projects = () => {
   return (
     <Section className="project-container">
       <div className="project-list">
-        {info.experiences.map(
-          ({ company, logo, title, date, description }, index) =>
+        {info.projects.map(
+          ({ title, subtitle, date, description, link }, index) =>
             <CardItem
               key={index}
-              logo={logo}
-              title={company}
-              subtitle={title}
+              link={link}
+              title={title}
+              subtitle={subtitle}
               date={date}
               description={description}
             />

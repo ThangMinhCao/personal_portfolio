@@ -44,7 +44,45 @@ export const info = {
       logo: CarletonLogo,
       title: "Undergraduate Researcher",
       date: "05/2020 - 05/2020",
-      description: "Explored a divide-and-conquer algorithm that calculates the closest-pair distance of points on multi-dimensional spaces without knowing their coordinates, using the doubling dimension concept. Implemented the algorithm from scratch with C++ and Boost library, then proved its logarithmic running time hypothesis."
+      description: "Explored a randomized divide-and-conquer algorithm that calculates the closest-pair distance of points on multi-dimensional spaces without knowing their coordinates, using the doubling dimension concept."
+    },
+  ],
+  projects: [
+    {
+      title: "Closest Pair Doubling",
+      subtitle: "Dean's Research Internship",
+      date: "Summer 2020",
+      link: "https://github.com/ThangMinhCao/closest-pair-doubling",
+      description: "Implemented the closest-pair doubling algorithm from scratch, then use generated data sets to proved my professor's hypothesis about its logarithmic running time.",
+      technologies: ["C++", "Boost Library"]
+    },
+    {
+      title: "Finger Search",
+      subtitle: "Dean's Research Internship",
+      date: "Spring 2021",
+      link: "https://github.com/ThangMinhCao/finger-search",
+      description: "Applied the search algorithm on Treap, SkipList ad 2-4 Tree. Then, examined and reported their differences in time complexity to decide which structure is the most suitable.",
+      technologies: ["C++", "Boost Library"]
+    },
+    {
+      title: "Connect 4",
+      link: "https://github.com/ThangMinhCao/connect_4",
+      description: "A full-stack online real-time web game that simulates the popular board game, Connect-4.",
+      technologies: ["React", "JavaScript", "CSS", "Node.js", "Express.js", "Socket.IO", "MongoDB", "REST API"]
+    },
+    {
+      title: "Study Buddy",
+      subtitle: "CU Hacking",
+      date: "Spring 2020",
+      link: "https://github.com/ThangMinhCao/studyBuddy",
+      description: "Built, in team of three, a cross-platform mobile app that improve our study periods by providing a pomodoro timer and correcting users' sitting posture.",
+      technologies: ["React Native", "JavaScript", "Firebase", "Google Cloud Vision"]
+    },
+    {
+      title: "Personal Website",
+      link: "https://thangcm.com/",
+      description: "This is the web site that you are currently on, which I designed and built from scratch. Hope you enjoy!",
+      technologies: ["React", "JavaScript", "CSS"]
     },
   ]
 }
