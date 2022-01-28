@@ -80,7 +80,7 @@ export const info = {
     },
     {
       title: "Personal Website",
-      link: "https://thangcm.com/",
+      link: "https://github.com/ThangMinhCao/personal_portfolio",
       description: "This is the web site that you are currently on, which I designed and built from scratch. Hope you enjoy!",
       technologies: ["React", "JavaScript", "CSS"]
     },
