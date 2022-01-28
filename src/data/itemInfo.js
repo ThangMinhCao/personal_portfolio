@@ -67,7 +67,7 @@ export const info = {
     {
       title: "Connect 4",
       link: "https://github.com/ThangMinhCao/connect_4",
-      description: "A full-stack online real-time web game that simulates the popular board game, Connect-4.",
+      description: "A full-stack web game that simulates the popular board game, Connect-4. It supports online real-time gameplay, JWT Authentication, room invitation and friend connection features.",
       technologies: ["React", "JavaScript", "CSS", "Node.js", "Express.js", "Socket.IO", "MongoDB", "REST API"]
     },
     {
