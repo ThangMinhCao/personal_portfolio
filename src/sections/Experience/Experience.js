@@ -3,10 +3,11 @@ import CardItem from "../../components/CardItem/CardItem";
 import { info } from "../../data/itemInfo";
 import { Title, MediumText } from "../../components/Typography";
 import "./Experience.css";
+import { forwardRef } from "react";
 
-const Experience = () => {
+const Experience = forwardRef((props, ref) => {
   return (
-    <Section className="experience-container">
+    <Section id="experience" ref={ref} className="experience-container">
       <div className="exp-title-container">
         <div className="exp-title">
           <Title>
@@ -30,6 +31,6 @@ const Experience = () => {
       </div>
     </Section>
   );
-};
+});
 
 export default Experience;

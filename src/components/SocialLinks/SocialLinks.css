@@ -1,11 +1,12 @@
 .links {
   display: flex;
-  flex-direction: column;
-  position: absolute;
+  /* flex-direction: column; */
+  /* position: absolute; */
   align-items: center;
   justify-content: center;
-  right: 20px;
-  bottom: 20px;
+  margin-bottom: 10px;
+  /* left: 30px;
+  bottom: 20px; */
 }
 
 .linkedin-button {
@@ -38,10 +39,11 @@
 
 .icon-button:hover {
   opacity: 0.8;
-  border-right: 3px dotted black;
+  border-bottom: 3px dotted black;
+  /* border-right: 3px dotted black; */
 }
 
-@media only screen and (max-width: 1000px) {
+/* @media only screen and (max-width: 1000px) {
   .links {
     flex-direction: row;
     position: relative;
@@ -54,4 +56,4 @@
     border-right: 0px dotted black;
     border-bottom: 3px dotted black;
   }
-}
+} */

@@ -10,6 +10,7 @@ import BoostLogo from "../assets/boost_logo.png";
 import NetlifyLogo from "../assets/netlify_logo.png";
 import JestLogo from "../assets/jest_logo.png";
 import MaterialUILogo from "../assets/material-ui_logo.png";
+import FigmaLogo from "../assets/figma_logo.png";
 
 export const languageColors = {
   JavaScript: {
@@ -51,5 +52,6 @@ export const frameworks = {
   "Boost Library": BoostLogo,
   Netlify: NetlifyLogo,
   Jest: JestLogo,
-  "Material UI": MaterialUILogo
+  "Material UI": MaterialUILogo,
+  Figma: FigmaLogo
 };

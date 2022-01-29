@@ -3,10 +3,11 @@ import Section from "../../components/Section";
 import { MediumText, Title } from "../../components/Typography";
 import { info } from "../../data/itemInfo";
 import "./Projects.css";
+import { forwardRef } from "react";
 
-const Projects = () => {
+const Projects = forwardRef((props, ref) => {
   return (
-    <Section className="project-container">
+    <Section id="projects" ref={ref} className="project-container">
       <div className="project-list">
         {info.projects.map(
           ({ title, subtitle, date, description, link, technologies }, index) =>
@@ -35,6 +36,6 @@ const Projects = () => {
       </div>
     </Section>
   );
-};
+});
 
 export default Projects;
