@@ -7,7 +7,6 @@
 
 .main-projects-container {
   display: flex; 
-  padding: 20px;
   flex-wrap: wrap-reverse;
   justify-content: center;
 }
