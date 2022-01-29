@@ -1,4 +1,4 @@
-# My personal portfolio website
+# My personal website
 
 ### Technologies used
 
