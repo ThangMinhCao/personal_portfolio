@@ -1,7 +1,5 @@
 # My personal website
 
-### Technologies used
-
-- React
-- CSS
+- Design with **Figma**
+- Built with **React** + **CSS**
 - Deployed with **Netlify**
