@@ -87,9 +87,7 @@
 
 .tech-stack-container {
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); */
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  /* justify-content: space-around; */
   grid-auto-columns: max-content;
   grid-auto-flow: dense;
   grid-gap: 10px;
@@ -106,7 +104,8 @@
   font-weight: 400;
   border-radius: 20px;
   margin: 5px;
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+              rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 .tech-item > * {

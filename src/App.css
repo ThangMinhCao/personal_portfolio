@@ -17,7 +17,7 @@
 
 .container {
   width: 100vw;
-  /* scroll-snap-type: y proximity; */
+  scroll-snap-type: y proximity;
   scroll-margin-top: 10vh;
   overflow-y: auto;
   height: 100vh;
@@ -55,9 +55,6 @@
   border-radius: 50%;
   overflow: hidden;
 }
-
-/* @media only screen and (max-width: 600px) {
-} */
 
 @media only screen and (max-width: 1000px) {
   .container {

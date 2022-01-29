@@ -5,9 +5,9 @@ const LINKEDIN_LINK = "https://www.linkedin.com/in/minhthangcao/";
 const GITHUB_LINK = "https://github.com/ThangMinhCao";
 const GITLAB_LINK = "https://gitlab.com/ThangMinhCao";
 
-const SocialLinks = () => {
+const SocialLinks = ({ white=false }) => {
   return (
-    <div className="links">
+    <div className={`links ${white ? "white-icons" : ""}`}>
       <a target="_blank" rel="noopener noreferrer" href={LINKEDIN_LINK}>
         <button className="icon-button linkedin-button" />
       </a>

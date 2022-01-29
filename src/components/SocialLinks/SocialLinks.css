@@ -1,12 +1,8 @@
 .links {
   display: flex;
-  /* flex-direction: column; */
-  /* position: absolute; */
   align-items: center;
   justify-content: center;
-  margin-bottom: 10px;
-  /* left: 30px;
-  bottom: 20px; */
+  margin-bottom: 5px;
 }
 
 .linkedin-button {
@@ -38,22 +34,10 @@
 }
 
 .icon-button:hover {
-  opacity: 0.8;
+  opacity: 0.9;
   border-bottom: 3px dotted black;
-  /* border-right: 3px dotted black; */
 }
 
-/* @media only screen and (max-width: 1000px) {
-  .links {
-    flex-direction: row;
-    position: relative;
-    right: 0;
-    bottom: 0;
-    margin-bottom: 20px;
-  }
-
-  .icon-button:hover {
-    border-right: 0px dotted black;
-    border-bottom: 3px dotted black;
-  }
-} */
+.white-icons {
+  filter: brightness(0) invert(1);
+}

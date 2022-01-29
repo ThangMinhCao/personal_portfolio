@@ -1,9 +1,15 @@
 .project-container {
   display: flex; 
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(-135deg,#69c7e4,#51a5be,#4b8ca5);
+}
+
+.main-projects-container {
+  display: flex; 
   padding: 20px;
   flex-wrap: wrap-reverse;
   justify-content: center;
-  background: linear-gradient(-135deg,#69c7e4,#51a5be,#4b8ca5);
 }
 
 .project-list {
@@ -29,7 +35,6 @@
   position: sticky;
   bottom: 20px;
   text-align: end;
-  /* text-shadow: 2px 2px 4px rgba(0,0,0,0.2); */
 }
 
 @media only screen and (max-width: 1000px) {
@@ -45,4 +50,11 @@
   .project-title {
     text-align: center;
   }
+}
+
+.credit {
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 300;
+  color: white;
 }

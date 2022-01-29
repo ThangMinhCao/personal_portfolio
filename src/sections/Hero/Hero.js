@@ -3,11 +3,10 @@ import { Title, LightText, MediumText } from "../../components/Typography";
 import portrait from "../../assets/PortraitCropped.jpg";
 import SocialLinks from "../../components/SocialLinks/SocialLinks";
 import "./Hero.css";
-import { forwardRef } from "react";
 
-const Hero = forwardRef((props, ref) => {
+const Hero = () => {
   return (
-    <Section id="hero" ref={ref} className="hero-container" backgroundColor="#C7E1FF">
+    <Section className="hero-container" backgroundColor="#C7E1FF">
       <div className="content-container">
         <div className="content">
           <div className="text-wrapper text-right">
@@ -31,6 +30,6 @@ const Hero = forwardRef((props, ref) => {
       </div>
     </Section>
   );
-});
+};
 
 export default Hero;

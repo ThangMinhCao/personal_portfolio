@@ -2,11 +2,10 @@ import Section from "../../components/Section";
 import { Title, Subtitle, LightText, MediumText } from "../../components/Typography";
 import carletonLogo from "../../assets/carleton_logo.jpg";
 import "./Education.css";
-import { forwardRef } from "react";
 
-const Education = forwardRef((props, ref) => {
+const Education = () => {
   return (
-    <Section id="education" ref={ref} className="edu-container">
+    <Section className="edu-container">
         <div className="content-container">
           <div className="content">
             <div className="image-container">
@@ -37,6 +36,6 @@ const Education = forwardRef((props, ref) => {
         </div>
     </Section>
   )
-});
+};
 
 export default Education;
