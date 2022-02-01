@@ -1,6 +1,6 @@
 # My personal website
 
-**Try it out**: https://thangcm.com
+**Have a look**: https://thangcm.com
 
 **Technologies**:
 
