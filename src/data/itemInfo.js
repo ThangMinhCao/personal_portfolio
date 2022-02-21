@@ -55,6 +55,16 @@ export const info = {
   ],
   projects: [
     {
+      title: "Gonline",
+      link: "https://github.com/ThangMinhCao/gonline",
+      description:
+        "Realtime online full-stack Go (Five in a row) game.",
+      technologies: {
+        languages: ["Python", "JavaScript", "CSS", "HTML"],
+        frameworks: ["Flask", "Jinja2", "SocketIO", "SQLAlchemy", "PostgreSQL"],
+      },
+    },
+    {
       title: "Closest Pair Doubling",
       subtitle: "Dean's Research Internship",
       date: "Summer 2020",
