@@ -58,7 +58,7 @@ export const info = {
       title: "Gonline",
       link: "https://github.com/ThangMinhCao/gonline",
       description:
-        "Realtime online full-stack Go (Five in a row) game.",
+        "Realtime online Go game (Five in a row) built with Flask server + Jinja2 template and SocketIO with PostgreSQL database.",
       technologies: {
         languages: ["Python", "JavaScript", "CSS", "HTML"],
         frameworks: ["Flask", "Jinja2", "SocketIO", "SQLAlchemy", "PostgreSQL"],

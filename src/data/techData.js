@@ -11,6 +11,10 @@ import NetlifyLogo from "../assets/netlify_logo.png";
 import JestLogo from "../assets/jest_logo.png";
 import MaterialUILogo from "../assets/material-ui_logo.png";
 import FigmaLogo from "../assets/figma_logo.png";
+import FlaskLogo from "../assets/flask_logo.png";
+import JinjaLogo from "../assets/jinja_logo.png";
+import SQLAlchemyLogo from "../assets/sqlalchemy_logo.png";
+import PostgreSQLLogo from "../assets/postgresql_logo.png";
 
 export const languageColors = {
   JavaScript: {
@@ -53,5 +57,9 @@ export const frameworks = {
   Netlify: NetlifyLogo,
   Jest: JestLogo,
   "Material UI": MaterialUILogo,
-  Figma: FigmaLogo
+  Figma: FigmaLogo,
+  Jinja2: JinjaLogo,
+  Flask: FlaskLogo,
+  PostgreSQL: PostgreSQLLogo,
+  SQLAlchemy: SQLAlchemyLogo
 };
