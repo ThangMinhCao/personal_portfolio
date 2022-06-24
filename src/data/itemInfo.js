@@ -1,14 +1,23 @@
 import KinaxisLogo from "../assets/kinaxis_logo.png";
 import CarletonLogo from "../assets/carleton_logo_inside.png";
 import BlueprintLogo from "../assets/blueprint_logo.png";
+import PatternLogo from "../assets/pattern_logo.png";
 
 export const info = {
   experiences: [
     {
+      company: "Pattern",
+      logo: PatternLogo,
+      title: "Teaching Assistant",
+      date: "05/2022 - Present",
+      description:
+        "Developing Node.js server endpoints, data modules and AWS Lambdas to automate workforce recruitment and management process for companies (which is currently manual), along with building features and applying new design system to the company's Flutter app.",
+    },
+    {
       company: "Carleton University",
       logo: CarletonLogo,
       title: "Teaching Assistant",
-      date: "09/2020 - Present",
+      date: "09/2020 - 04/2022",
       description:
         "Assisting professors to guide students through materials of Computer Science courses. Marking assignments and giving students thorough feedback.",
     },

@@ -28,7 +28,7 @@ const Projects = () => {
           <div className="top-space" />
           <div className="project-title">
             <MediumText>AND</MediumText>
-            <Title style={{ fontSize: "calc(40px + 1vw)" }}>
+            <Title>
               WHAT'VE BEEN
               <br />
               GOING ALONG
