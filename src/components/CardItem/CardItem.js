@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./CardItem.css";
 import { BsCodeSlash } from "react-icons/bs";
 import { languageColors, frameworks } from "../../data/techData";
@@ -10,7 +11,10 @@ const CardItem = ({
   description,
   technologies,
   link,
+  clickable = false
 }) => {
+  const [collapsed, setCollapsed] = useState(true);
+
   const openLink = (e) => {
     e.preventDefault();
     window.open(link, "_blank");
@@ -37,7 +41,7 @@ const CardItem = ({
   );
 
   return (
-    <div className="card item">
+    <div className="card item" style={clickable ? { cursor: "pointer" } : {}} onClick={() => setCollapsed(!collapsed)}>
       <div className="heading">
         {!logo ? null : (
           <div className="logo-container">
@@ -58,7 +62,11 @@ const CardItem = ({
         )}
       </div>
 
-      <p className="description">{description}</p>
+      {
+        collapsed && clickable
+        ? null
+        : <p className="description">{description}</p>
+      }
 
       {!technologies ? null : (
         <div className="tech-stack-container">

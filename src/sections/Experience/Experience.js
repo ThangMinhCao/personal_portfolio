@@ -25,6 +25,7 @@ const Experience = () => {
               subtitle={title}
               date={date}
               description={description}
+              // clickable
             />
         )}
       </div>

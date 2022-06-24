@@ -1,7 +1,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  min-height: 100px;
+  /* min-height: 150px; */
   background: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   margin-bottom: 30px;
@@ -11,6 +11,7 @@
   transition: color 0.1s;
   cursor: default;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  /* transition: height 200ms ease-in-out; */
 }
 
 .card:hover {
