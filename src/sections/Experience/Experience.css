@@ -8,6 +8,7 @@
 
 .exp-title-container {
   flex: 1;
+  min-width: 350px;
   padding: 40px;
 }
 
@@ -22,11 +23,13 @@
 
 .timeline {
   padding: 10px;
+  min-width: 300px;
   position: relative;
   margin: auto;
+  flex: 2;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1500px) {
   .exp-title {
     text-align: end;
   }
