@@ -8,7 +8,7 @@ export const info = {
     {
       company: "Pattern",
       logo: PatternLogo,
-      title: "Teaching Assistant",
+      title: "Software Development Intern",
       date: "05/2022 - Present",
       description:
         "Developing Node.js server endpoints, data modules and AWS Lambdas to automate workforce recruitment and management process for companies (which is currently manual), along with building features and applying new design system to the company's Flutter app.",
@@ -24,7 +24,7 @@ export const info = {
     {
       company: "Kinaxis",
       logo: KinaxisLogo,
-      title: "Software Developer Intern",
+      title: "Software Development Intern",
       date: "09/2021 - 12/2021",
       description:
         "Developed an interactive and responsive data visualization with D3.js library integrated with TypeScript and HTML, that improves development and onboarding procedures at the company.",
@@ -32,7 +32,7 @@ export const info = {
     {
       company: "Kinaxis",
       logo: KinaxisLogo,
-      title: "Software Engineering Intern",
+      title: "Software Development Intern",
       date: "05/2021 - 08/2021",
       description:
         "Investigated and implemented in C++ a specialized product structure cycle detection graph algorithm that combines variances of strongly connected components and cycles enumeration algorithms. Enhanced the running time and output reports of the product's related analytics feature.",
