@@ -103,3 +103,9 @@
 		background-position: 15% 90%;
 	}
 }
+
+.transition {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}

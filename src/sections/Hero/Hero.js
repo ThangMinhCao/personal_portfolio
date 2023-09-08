@@ -3,7 +3,6 @@ import { Title, LightText, MediumText } from "../../components/Typography";
 import portrait from "../../assets/PortraitCropped.jpg";
 import SocialLinks from "../../components/SocialLinks/SocialLinks";
 import "./Hero.css";
-
 const Hero = () => {
   return (
     <Section className="hero-container" backgroundColor="#C7E1FF">

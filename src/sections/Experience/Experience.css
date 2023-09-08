@@ -4,6 +4,9 @@
   padding: 10px;
   z-index: 10;
   background: #62bb8e;
+
+  position: sticky;
+  /* top: 0; */
 }
 
 .exp-title-container {

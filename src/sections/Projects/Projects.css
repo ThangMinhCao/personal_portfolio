@@ -2,7 +2,11 @@
   display: flex; 
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(-135deg,#69c7e4,#51a5be,#4b8ca5);
+  /* background: linear-gradient(-135deg,#69c7e4,#51a5be,#4b8ca5); */
+  background: linear-gradient(#62bb8e,#59a981,#519975,#458464);
+
+  position: sticky;
+  top: 0;
 }
 
 .main-projects-container {
