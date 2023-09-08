@@ -1,6 +1,6 @@
 import "./SocialLinks.css";
 
-const RESUME_LINK = "/MinhThangCao_Resume.pdf";
+const RESUME_LINK = "/thangcao-resume.pdf";
 const LINKEDIN_LINK = "https://www.linkedin.com/in/minhthangcao/";
 const GITHUB_LINK = "https://github.com/ThangMinhCao";
 const GITLAB_LINK = "https://gitlab.com/ThangMinhCao";

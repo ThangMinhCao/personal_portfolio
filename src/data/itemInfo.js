@@ -2,29 +2,38 @@ import KinaxisLogo from "../assets/kinaxis_logo.png";
 import CarletonLogo from "../assets/carleton_logo_inside.png";
 import BlueprintLogo from "../assets/blueprint_logo.png";
 import PatternLogo from "../assets/pattern_logo.png";
+import AmazonLogo from "../assets/amazon_logo.png";
 
 export const info = {
   experiences: [
     {
-      company: "Pattern",
-      logo: PatternLogo,
-      title: "Software Development Intern",
-      date: "05/2022 - Present",
-      description:
-        "Developing Node.js server endpoints, data modules and AWS Lambdas to automate workforce recruitment and management process for companies (which is currently manual), along with building features and applying new design system to the company's Flutter app.",
-    },
-    {
       company: "Carleton University",
       logo: CarletonLogo,
       title: "Teaching Assistant",
-      date: "09/2020 - 04/2022",
+      date: "09/2020 - Present",
       description:
         "Assisting professors to guide students through materials of Computer Science courses. Marking assignments and giving students thorough feedback.",
     },
     {
+      company: "Amazon",
+      logo: AmazonLogo,
+      title: "Software Dev Intern",
+      date: "05/2023 - 08/2023",
+      description:
+        "Designed and developed the architecture of an Amazon product detail page preview for complex apparel size attribute on the Amazon Seller Central’s 1-on-1 item creation experience. This minimized incorrect input issues during product listing and reduced Amazon Retail’s total listing feature friction by 3% within 2.5 millions third-party sellers.",
+    },
+    {
+      company: "Pattern",
+      logo: PatternLogo,
+      title: "Software Dev Intern",
+      date: "05/2022 - 08/2022",
+      description:
+        "Developed Node.js server endpoints, data modules and AWS Lambdas to automate workforce recruitment and management process for companies (which is currently manual), along with building features and applying new design system to the company's Flutter app.",
+    },
+    {
       company: "Kinaxis",
       logo: KinaxisLogo,
-      title: "Software Development Intern",
+      title: "Software Dev Intern",
       date: "09/2021 - 12/2021",
       description:
         "Developed an interactive and responsive data visualization with D3.js library integrated with TypeScript and HTML, that improves development and onboarding procedures at the company.",
@@ -32,7 +41,7 @@ export const info = {
     {
       company: "Kinaxis",
       logo: KinaxisLogo,
-      title: "Software Development Intern",
+      title: "Software Dev Intern",
       date: "05/2021 - 08/2021",
       description:
         "Investigated and implemented in C++ a specialized product structure cycle detection graph algorithm that combines variances of strongly connected components and cycles enumeration algorithms. Enhanced the running time and output reports of the product's related analytics feature.",
@@ -88,7 +97,10 @@ export const info = {
       link: "https://gitlab.com/carletonblueprint/beneficent",
       description:
         "Using React, coordinated with back-end developers and designers to build an open-source CRM full-stack web app for a non-profit organization that significantly improves the processing time of their services.",
-      technologies: { languages: ["TypeScript", "SCSS"], frameworks: ["React", "Jest", "Material UI"] },
+      technologies: {
+        languages: ["TypeScript", "SCSS"],
+        frameworks: ["React", "Jest", "Material UI"],
+      },
     },
     {
       title: "Finger Search",
@@ -126,7 +138,10 @@ export const info = {
       link: "https://github.com/ThangMinhCao/personal_portfolio",
       description:
         "This is the web site that you are currently on, which I designed and built from scratch. Hope you enjoy!",
-      technologies: { languages: ["JavaScript", "CSS"], frameworks: ["React", "Netlify", "Figma"] },
+      technologies: {
+        languages: ["JavaScript", "CSS"],
+        frameworks: ["React", "Netlify", "Figma"],
+      },
     },
   ],
 };

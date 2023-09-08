@@ -13,10 +13,14 @@ const Hero = () => {
             <MediumText>HI THERE!</MediumText>
             <Title>IT'S THANG.</Title>
             <LightText>
-              Third-year CS student{" "}
-              <span className="text-no-wrap">at Carleton University</span>
+              Ex SDE Intern{" "}
+              <span className="text-no-wrap">at <b>Amazon</b></span>
             </LightText>
-            <LightText>a.k.a tech and music lover.</LightText>
+            <LightText>
+              CS student{" "}
+              <span className="text-no-wrap">at <b>Carleton University</b></span>
+            </LightText>
+            <LightText>Tech & music lover a.k.a rock climber.</LightText>
           </div>
 
           <div className="image-container">

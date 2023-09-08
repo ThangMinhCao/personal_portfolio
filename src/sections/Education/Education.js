@@ -19,7 +19,7 @@ const Education = () => {
                 Carleton University
               </Title>
               <Subtitle>
-                From 09/2019 - 05/2024 (Expected)
+                From 09/2019 - 12/2023 (Expected)
               </Subtitle>
               <LightText>
                 Bachelor's Degree of <span className="text-no-wrap">Computer Science,</span>
@@ -27,7 +27,7 @@ const Education = () => {
                 Co-operative Education
                 <br/>
                 <br/>
-                GPA: {<MediumText>11.64/12 (A+)</MediumText>}
+                GPA: {<MediumText>11.59/12 (A+)</MediumText>}
                 <br/>
                 On Dean's Honour List since 2019
               </LightText>
