@@ -1,8 +1,10 @@
 import Section from "../../components/Section";
 import { Title, LightText, MediumText } from "../../components/Typography";
-import portrait from "../../assets/PortraitCropped.jpg";
+import portrait1 from "../../assets/portraits/1.jpg";
+import portrait2 from "../../assets/portraits/2.jpg";
 import SocialLinks from "../../components/SocialLinks/SocialLinks";
 import "./Hero.css";
+
 const Hero = () => {
   return (
     <Section className="hero-container" backgroundColor="#C7E1FF">
@@ -13,18 +15,23 @@ const Hero = () => {
             <Title>IT'S THANG.</Title>
             <LightText>
               Ex SDE Intern{" "}
-              <span className="text-no-wrap">at <b>Amazon</b></span>
+              <span className="text-no-wrap">at <b>Amazon</b> & <b>Kinaxis</b></span>
             </LightText>
             <LightText>
-              CS student{" "}
+              CS Student{" "}
               <span className="text-no-wrap">at <b>Carleton University</b></span>
             </LightText>
-            <LightText>Tech & music lover a.k.a rock climber.</LightText>
+            <LightText>Tech + Music Lover & Rock Climber</LightText>
           </div>
 
           <div className="image-container">
-            <div className="image-cropper">
-              <img className="image" alt="Portrait" src={portrait} />
+            <div className="flipper">
+              <div className="image-cropper front">
+                  <img className="image" alt="Portrait" src={portrait1} />
+              </div>
+              <div className="image-cropper">
+                  <img className="image" alt="Portrait" src={portrait2} />
+              </div>
             </div>
           </div>
         </div>

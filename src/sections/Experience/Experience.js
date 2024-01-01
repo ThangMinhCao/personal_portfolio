@@ -12,7 +12,7 @@ const Experience = () => {
           <Title>
             MY JOURNEY
           </Title>
-          <MediumText>SO FAR.</MediumText>
+          <MediumText>SO FAR</MediumText>
         </div>
       </div>
       <div className="timeline">

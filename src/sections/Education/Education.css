@@ -4,6 +4,9 @@
 
   position: sticky;
   top: 0;
+  /* scroll-snap-align: start; */
+
+  /* box-shadow: 0 0 5px 10px #ffa58e; */
 }
 
 .floating {
