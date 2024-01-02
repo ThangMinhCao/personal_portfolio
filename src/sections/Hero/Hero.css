@@ -1,16 +1,12 @@
 .hero-container {
   /* background: linear-gradient(25deg, #ffc7d7, #f5c4d2, #fff2bf, #d8ffbf, #bfffe3, #bff5ff, #b5d4f7, #a6cfff, #8ac0ff, #75b5ff, #57a5ff); */
   /* background: linear-gradient(0deg, #ffa58e, #ffa58e, #ffb7a5, #ffc8ba, #ffcabf, #b4d7ff, #a6cfff, #8ac0ff, #75b5ff, #57a5ff); */
-  background: linear-gradient(0deg, #ffa58e, #ffcabf, #b4d7ff, #8ac0ff, #8ac0ff, #75b5ff, #57a5ff);
+  background: linear-gradient(0deg, #ffa58e, #ffc0b4, #acd3ff, #93c5fe, #8ac0ff, #75b5ff, #57a5ff);
   background-size: 200% 200%;
   animation: gradient 5s ease infinite;
 
   position: sticky;
   top: 0;
-
-  .image-cropper:hover {
-    animation: float 1s ease-in-out infinite;
-  }
 }
 
 .text-right {

@@ -3,6 +3,7 @@
 }
 
 * {
+  transition: font-size 40ms;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -135,4 +136,14 @@
     transform: translateY(0px);
     box-shadow: rgba(0, 0, 0, 0.66) 0px 10px 15px 2px;
   }
+}
+
+
+.float-hover {
+  transition: all .3s;
+}
+
+.float-hover:hover {
+  transform: translateY(-20px);
+  box-shadow: rgba(0, 0, 0, 0.46) 0px 30px 30px 2px;
 }

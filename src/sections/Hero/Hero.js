@@ -24,7 +24,7 @@ const Hero = () => {
           </div>
 
           <div className="image-container">
-            <div className="image-cropper">
+            <div className="image-cropper float-hover">
               <img className="image" alt="Portrait" src={portrait} />
             </div>
           </div>
