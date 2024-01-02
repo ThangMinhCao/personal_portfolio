@@ -14,9 +14,9 @@ const SocialLinks = ({ white=false }) => {
       <a target="_blank" rel="noopener noreferrer" href={GITHUB_LINK}>
       <button className="icon-button github-button" />
       </a>
-      <a target="_blank" rel="noopener noreferrer" href={GITLAB_LINK}>
+      {/* <a target="_blank" rel="noopener noreferrer" href={GITLAB_LINK}>
         <button className="icon-button gitlab-button" />
-      </a>
+      </a> */}
       <a target="_blank" rel="noopener noreferrer" href={RESUME_LINK}>
         <button className="icon-button resume-button" />
       </a>
