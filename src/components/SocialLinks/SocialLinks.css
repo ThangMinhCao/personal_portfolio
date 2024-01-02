@@ -1,6 +1,6 @@
 .links {
   position: absolute;
-  bottom: 0;
+  bottom: 5px;
   left: 50%;
   right: 50%;
   display: flex;

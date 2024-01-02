@@ -10,7 +10,7 @@ export const info = {
       company: "Carleton University",
       logo: CarletonLogo,
       title: "Teaching Assistant",
-      date: "09/2020 - Present",
+      date: "09/2020 - 12/2023",
       description:
         "Assisting professors to guide students through materials of Computer Science courses. Marking assignments and giving students thorough feedback.",
     },
