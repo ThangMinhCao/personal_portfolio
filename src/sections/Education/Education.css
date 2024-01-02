@@ -5,27 +5,10 @@
   position: sticky;
   top: 0;
   /* scroll-snap-align: start; */
-
-  /* box-shadow: 0 0 5px 10px #ffa58e; */
 }
 
 .floating {
   animation: float 2s infinite ease-in-out;
-}
-
-@keyframes float {
-  0% {
-    transform: translateY(10px);
-    box-shadow: rgba(0, 0, 0, 0.66) 0px 10px 15px 2px;
-  }
-  50% {
-    transform: translateY(-20px);
-    box-shadow: rgba(0, 0, 0, 0.46) 0px 40px 40px 2px;
-  }
-  100% {
-    transform: translateY(10px);
-    box-shadow: rgba(0, 0, 0, 0.66) 0px 10px 15px 2px;
-  }
 }
 
 .text {

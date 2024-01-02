@@ -1,7 +1,6 @@
 import Section from "../../components/Section";
 import { Title, LightText, MediumText } from "../../components/Typography";
-import portrait1 from "../../assets/portraits/1.jpg";
-import portrait2 from "../../assets/portraits/2.jpg";
+import portrait from "../../assets/portraits/1.jpg";
 import SocialLinks from "../../components/SocialLinks/SocialLinks";
 import "./Hero.css";
 
@@ -25,13 +24,8 @@ const Hero = () => {
           </div>
 
           <div className="image-container">
-            <div className="flipper">
-              <div className="image-cropper front">
-                  <img className="image" alt="Portrait" src={portrait1} />
-              </div>
-              <div className="image-cropper">
-                  <img className="image" alt="Portrait" src={portrait2} />
-              </div>
+            <div className="image-cropper">
+              <img className="image" alt="Portrait" src={portrait} />
             </div>
           </div>
         </div>

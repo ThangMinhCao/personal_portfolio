@@ -4,11 +4,13 @@
   background: linear-gradient(0deg, #ffa58e, #ffcabf, #b4d7ff, #8ac0ff, #8ac0ff, #75b5ff, #57a5ff);
   background-size: 200% 200%;
   animation: gradient 5s ease infinite;
-  /* height: calc(100vh + 100px); */
 
   position: sticky;
   top: 0;
-  /* padding-bottom: 100px; */
+
+  .image-cropper:hover {
+    animation: float 1s ease-in-out infinite;
+  }
 }
 
 .text-right {
@@ -23,21 +25,9 @@
   object-fit: cover;
 }
 
-.flipper {
-  transition: 0.6s;
-  transform-style: preserve-3d;
-  position: relative;
-  /* animation: flip 3s linear infinite; */
-}
-
 .front, .back {
     backface-visibility: hidden;
     position: absolute;
     top: 0;
     left: 0;
 }
-
-/* .flipper:hover { */
-  /* transform: rotateY(180deg); */
-  /* animation: flip 3s linear infinite; */
-/* } */

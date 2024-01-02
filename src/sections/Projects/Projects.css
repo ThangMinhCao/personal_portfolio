@@ -2,12 +2,11 @@
   display: flex; 
   flex-direction: column;
   align-items: center;
-  /* background: linear-gradient(-135deg,#69c7e4,#51a5be,#4b8ca5); */
   background: linear-gradient(#62bb8e,#59a981,#519975,#458464);
 
   position: sticky;
   top: 0;
-  padding-bottom: 20px;
+  padding-bottom: var(--social-link-height);
 }
 
 .main-projects-container {
@@ -42,10 +41,6 @@
 }
 
 @media only screen and (max-width: 1000px) {
-  .project-list, .project-container {
-    padding: 10px;
-  }
-
   .project-list {
     flex-basis: 1000px;
     grid-template-columns: none;
