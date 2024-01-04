@@ -8,9 +8,9 @@ import { MusicButton } from "../../components/Buttons/Buttons";
 function Home() {
   return (
     <div className="container">
-      <div className="button-bar home-button-bar">
+      {/* <div className="button-bar home-button-bar">
         <MusicButton />
-      </div>
+      </div> */}
       <Hero />
       <Education />
       <Experience />
