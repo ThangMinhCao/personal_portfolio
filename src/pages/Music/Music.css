@@ -1,0 +1,126 @@
+:root {
+  --social-link-height: 50px;
+}
+
+* {
+  transition: font-size 40ms;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Lato, Roboto, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  background: #000000db;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+
+  scroll-snap-type: y proximity;
+  scroll-margin-top: 10vh;
+  overflow-y: auto;
+}
+
+#music-background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url(../../assets/music_background.jpeg);
+  background-size: cover;
+  background-position-y: center;
+  filter: blur(15px) brightness(.3);
+  z-index: -100;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.text-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-no-wrap {
+  white-space: nowrap;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.music-image-cropper {
+  box-shadow: rgba(0, 0, 0, 0.66) 0px 10px 15px 2px;
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+  border: #0e0e0e45 1px solid;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1000px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-container {
+    min-height: auto;
+  }
+
+  .container {
+    scroll-snap-type: none;
+  }
+
+  .links {
+    flex-direction: row;
+  }
+
+  .text-wrapper {
+    flex: 0;
+  }
+
+  .text-wrapper > * {
+    text-align: center;
+  }
+
+  .text-wrapper {
+    justify-content: flex-start;
+  }
+
+  .content {
+    flex-direction: column;
+    padding-top: 6vh;
+    padding-bottom: 5vh;
+  }
+
+  .image-cropper {
+    width: 40vw;
+    height: 40vw;
+    min-width: 200px;
+    min-height: 200px;
+  } 
+
+  .image-container {
+    margin: 30px;
+  }
+}
+
+.music-button-bar {
+  color: white;
+  right: 20px;
+  top: 20px;
+  justify-content: end !important;
+}

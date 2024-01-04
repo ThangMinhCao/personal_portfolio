@@ -1,8 +1,14 @@
 import styled from "styled-components";
 
 const bodySize = "calc(16px + 1.2vw)";
+const lightFixed = "calc(18px)";
 const titleSize = "calc(30px + 1.6vw)";
 const subtitleSize = "calc(22px + 0.5vw)";
+
+export const LightFixed = styled.span`
+  font-weight: 300;
+  font-size: ${lightFixed};
+`;
 
 export const LightText = styled.span`
   font-weight: 300;

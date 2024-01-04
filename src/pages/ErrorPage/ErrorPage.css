@@ -1,0 +1,28 @@
+#error-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+
+  background-color: #000000dc;
+  color: rgb(219, 210, 210);
+}
+
+.credit-error {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  font-style: italic;
+}
+
+.button-bar {
+  width: calc(100% - 40px);
+  top: 20px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+}

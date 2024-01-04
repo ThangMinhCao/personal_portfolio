@@ -25,6 +25,26 @@
   background: url(../../assets/resume_icon.png);
 }
 
+.facebook-button {
+  background: url(../../assets/facebook_icon.png);
+}
+
+.instagram-button {
+  background: url(../../assets/instagram_icon.png);
+}
+
+.youtube-button {
+  background: url(../../assets/youtube_icon.png);
+}
+
+.spotify-button {
+  background: url(../../assets/spotify_icon.png);
+}
+
+.soundcloud-button {
+  background: url(../../assets/soundcloud_icon.png);
+}
+
 .icon-button {
   width: 40px;
   height: 40px;

@@ -1,0 +1,22 @@
+.back-home-button {
+  display: flex;
+  align-items: center;
+
+  background: #ffffff1f;
+	color: inherit;
+	border: none;
+	outline: inherit;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 0.7px white dashed;
+}
+
+.back-home-button:hover {
+  background-color: #a8a8a86e;
+}
+
+.back-home-button-text {
+  display: flex;
+  align-items: center;
+}
