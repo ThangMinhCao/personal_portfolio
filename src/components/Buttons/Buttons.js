@@ -6,7 +6,12 @@ import { LightFixed } from "../Typography";
 
 const buttonIconSize = 20;
 
-export const MusicButton = ({ onClick, white = false, withText = true }) => {
+export const MusicButton = ({
+  onClick,
+  white = false,
+  withText = true,
+  filled = false,
+}) => {
   const navigate = useNavigate();
 
   return (
@@ -16,6 +21,7 @@ export const MusicButton = ({ onClick, white = false, withText = true }) => {
       style={{
         color: white ? "white" : "black",
         border: `0.7px ${white ? "white" : "black"} solid`,
+        background: filled ? (white ? "black" : "white") : "transparent",
       }}
     >
       <IoMusicalNotes fontSize={buttonIconSize} />
@@ -26,7 +32,12 @@ export const MusicButton = ({ onClick, white = false, withText = true }) => {
   );
 };
 
-export const SoftwareButton = ({ onClick, white = false, withText = true }) => {
+export const SoftwareButton = ({
+  onClick,
+  white = false,
+  withText = true,
+  filled = false,
+}) => {
   const navigate = useNavigate();
 
   return (
@@ -36,14 +47,12 @@ export const SoftwareButton = ({ onClick, white = false, withText = true }) => {
       style={{
         color: white ? "white" : "black",
         border: `0.7px ${white ? "white" : "black"} solid`,
+        background: filled ? (white ? "#21212180" : "white") : "transparent",
       }}
     >
       <FaComputer fontSize={buttonIconSize} />
       {withText ? (
-        <LightFixed
-          style={{ marginLeft: 7 }}
-          className="back-home-button-text"
-        >
+        <LightFixed style={{ marginLeft: 7 }} className="back-home-button-text">
           SOFTWARE
         </LightFixed>
       ) : null}

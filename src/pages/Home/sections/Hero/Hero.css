@@ -5,8 +5,8 @@
   background-size: 200% 200%;
   animation: gradient 5s ease infinite;
 
-  position: sticky;
-  top: 0;
+  /* position: sticky; */
+  /* top: 0; */
 }
 
 .text-right {

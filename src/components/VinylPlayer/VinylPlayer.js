@@ -18,14 +18,14 @@ function useWindowSize() {
 /* Copyright (c) 2024 by Rob Rehrig (https://codepen.io/robrehrig/pen/AooLxK) */
 const VinylPlayer = () => {
   const [isPlaying, setIsPlaying] = useState(false);
-  const [width, height] = useWindowSize();
+  const [width] = useWindowSize();
 
   const handlePlayClicked = () => {
     setIsPlaying(!isPlaying);
   };
 
   return (
-    <div>
+    <div style={{flex: 1}}>
       <div id="turntable" style={{transform: `scale(${Math.max(0.4, width / 1344)})`}}>
         <div id="table-shadow"></div>
         <div id="table-feet"></div>

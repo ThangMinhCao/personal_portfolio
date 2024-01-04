@@ -79,7 +79,7 @@
   box-shadow: rgba(0, 0, 0, 0.46) 0px 30px 30px 2px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) and (min-height: 550px) {
   section {
     display: flex;
     flex-direction: column;
@@ -159,7 +159,7 @@
 .button-bar {
   position: fixed;
   display: flex;
-  justify-content: flex-end !important;
+  justify-content: flex-start !important;
   z-index: 9;
   padding: 25px;
   right: 0px;

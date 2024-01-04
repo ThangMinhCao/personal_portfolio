@@ -9,9 +9,18 @@ const INSTAGRAM_LINK = "https://www.instagram.com/thang_cao_/";
 const SPOTIFY_LINK = "https://open.spotify.com/artist/1vb60N1T2ZMzgJ7zj5FCXZ";
 const SOUNDCLOUD_LINK = "https://soundcloud.com/thangmcao";
 
-const SocialLinks = ({ white = false, music = false }) => {
+const SocialLinks = ({
+  white = false,
+  music = false,
+  background = undefined,
+  position = "centered",
+  fixed = false,
+}) => {
   return !music ? (
-    <div className={`links ${white ? "white-icons" : ""}`}>
+    <div
+      className={`links ${white ? "white-icons" : ""} ${position}-links`}
+      style={{ background: background ? background : "", position: fixed ? "fixed" : "absolute" }}
+    >
       <a target="_blank" rel="noopener noreferrer" href={LINKEDIN_LINK}>
         <button className="icon-button linkedin-button" />
       </a>
@@ -23,21 +32,24 @@ const SocialLinks = ({ white = false, music = false }) => {
       </a>
     </div>
   ) : (
-    <div className={`links ${white ? "white-icons" : ""}`}>
+    <div
+      className={`links ${white ? "white-icons" : ""} ${position}-links`}
+      style={{ background: background ? background : "", position: fixed ? "fixed" : "absolute" }}
+    >
       <a target="_blank" rel="noopener noreferrer" href={FACEBOOK_LINK}>
-        <button className="icon-button facebook-button" />
+        <button className="icon-button facebook-button music-icon-button" />
       </a>
       <a target="_blank" rel="noopener noreferrer" href={INSTAGRAM_LINK}>
-        <button className="icon-button instagram-button" />
+        <button className="icon-button instagram-button music-icon-button" />
       </a>
       <a target="_blank" rel="noopener noreferrer" href={YOUTUBE_LINK}>
-        <button className="icon-button youtube-button" />
+        <button className="icon-button youtube-button music-icon-button" />
       </a>
       <a target="_blank" rel="noopener noreferrer" href={SPOTIFY_LINK}>
-        <button className="icon-button spotify-button" />
+        <button className="icon-button spotify-button music-icon-button" />
       </a>
       <a target="_blank" rel="noopener noreferrer" href={SOUNDCLOUD_LINK}>
-        <button className="icon-button soundcloud-button" />
+        <button className="icon-button soundcloud-button music-icon-button" />
       </a>
     </div>
   );

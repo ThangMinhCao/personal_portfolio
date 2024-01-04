@@ -35,3 +35,10 @@ export const Title = styled.h1`
   letter-spacing: -0.03em;
   text-shadow: 3px 5px 8px rgba(0,0,0,0.2);
 `;
+
+export const TitleArtist = styled.h1`
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: -0.03em;
+  text-shadow: 3px 5px 8px rgba(0,0,0,0.2);
+`;

@@ -1,12 +1,24 @@
 .links {
+  left: 0;
+  width: 100%;
+  bottom: 0px;
+  padding: 5px;
   position: absolute;
-  bottom: 5px;
-  left: 50%;
-  right: 50%;
   display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 1000;
+  align-items: center;
+}
+
+.centered-links {
+  justify-content: center;
+}
+
+.left-links {
+  justify-content: flex-start;
+}
+
+.right-links {
+  justify-content: flex-end;
 }
 
 .linkedin-button {
@@ -46,15 +58,20 @@
 }
 
 .icon-button {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border: none;
   cursor: pointer;
   margin: 5px;
   background-repeat: no-repeat;
-  background-size: 80%;
+  background-size: 100%;
   background-position: center;
   transition: border 0.1s;
+}
+
+.music-icon-button {
+  width: 20px;
+  background-size: 100%;
 }
 
 .icon-button:hover {
@@ -62,6 +79,6 @@
   border-bottom: 3px dotted black;
 }
 
-.white-icons {
+.white-icons > * {
   filter: brightness(0) invert(1);
 }
