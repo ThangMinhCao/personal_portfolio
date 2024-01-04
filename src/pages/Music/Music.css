@@ -136,7 +136,7 @@
   justify-content: space-between;
 
   font-family: 'Fjalla One', sans-serif;
-  font-size: 30px;
+  font-size: calc(1vw + 20px);
   text-align: right;
   position: absolute;
   bottom: 100px;
@@ -153,7 +153,7 @@
   border: none;
   cursor: pointer;
   padding: 5px 10px 5px 10px;
-  font-size: 20px;
+  font-size: 12px;
   font-family: 'Fjalla One', sans-serif;
   margin-top: 10px;
 }
