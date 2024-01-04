@@ -11,12 +11,11 @@ const router = createBrowserRouter([
     element: <Home />,
     errorElement: <ErrorPage />,
   },
-  // TODO: Uncomment this when music page is done
-  // {
-  //   path: "/music",
-  //   element: <Music />,
-  //   errorElement: <ErrorPage />,
-  // }
+  {
+    path: "/music",
+    element: <Music />,
+    errorElement: <ErrorPage />,
+  }
 ]);
 
 ReactDOM.render(

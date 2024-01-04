@@ -6,7 +6,7 @@ import {
 } from "../../components/Typography";
 import SocialLinks from "../../components/SocialLinks/SocialLinks";
 import "./ErrorPage.css";
-import { useNavigate, useRouteError } from "react-router-dom";
+import { useRouteError } from "react-router-dom";
 import { MusicButton, SoftwareButton } from "../../components/Buttons/Buttons";
 
 const ErrorPage = () => {
@@ -15,8 +15,8 @@ const ErrorPage = () => {
   return (
     <Section id="error-page">
       <div className="button-bar error-button-bar">
-        <MusicButton />
-        <SoftwareButton />
+        <MusicButton white />
+        <SoftwareButton white />
       </div>
 
       <Title>Oops!</Title>

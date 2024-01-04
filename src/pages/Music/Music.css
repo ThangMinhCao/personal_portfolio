@@ -17,10 +17,6 @@
   width: 100vw;
   position: fixed;
   bottom: 0;
-
-  scroll-snap-type: y proximity;
-  scroll-margin-top: 10vh;
-  overflow-y: auto;
 }
 
 #music-background {
@@ -29,12 +25,19 @@
   width: 100%;
   background: url(../../assets/music_background.jpeg);
   background-size: cover;
-  background-position-y: center;
+  background-position: center;
   filter: blur(15px) brightness(.3);
   z-index: -100;
 }
 
-.content {
+.music-content-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.music-content {
   display: flex;
   flex-direction: row;
   flex: 1;
@@ -51,12 +54,11 @@
   white-space: nowrap;
 }
 
-.image-container {
+.music-image-container {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px;
 }
 
 .music-image-cropper {
@@ -68,18 +70,7 @@
   overflow: hidden;
 }
 
-@media only screen and (max-width: 1000px) {
-  section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .content-container {
-    min-height: auto;
-  }
-
+@media only screen and (max-width: 800px) {
   .container {
     scroll-snap-type: none;
   }
@@ -102,25 +93,32 @@
 
   .content {
     flex-direction: column;
-    padding-top: 6vh;
-    padding-bottom: 5vh;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
-  .image-cropper {
-    width: 40vw;
-    height: 40vw;
-    min-width: 200px;
-    min-height: 200px;
-  } 
+  .music-image-cropper {
+    height: 40vh;
+    width: 100vw;
+    border-radius: 10px;
+    border: #0e0e0e45 1px solid;
+    overflow: hidden;
+  }
 
-  .image-container {
-    margin: 30px;
+  .music-image-container {
+    position: fixed;
+    width: 100vw;
+    padding: 15px;
+    left: 0;
+    top: 0;
+  }
+
+  .float-hover:hover {
+    transform: none;
   }
 }
 
 .music-button-bar {
   color: white;
-  right: 20px;
-  top: 20px;
-  justify-content: end !important;
+  justify-content: flex-end !important;
 }

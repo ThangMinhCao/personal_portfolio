@@ -1,3 +1,4 @@
+// import { MusicButton } from "../../../../components/Buttons/Buttons";
 import CardItem from "../../../../components/CardItem/CardItem";
 import Section from "../../../../components/Section";
 import SocialLinks from "../../../../components/SocialLinks/SocialLinks";
@@ -38,6 +39,9 @@ const Projects = () => {
       </div>
       <SocialLinks white />
       <span className="credit">Made by Minh Thang Cao</span>
+      {/* <div className="project-button-bar">
+        <MusicButton white />
+      </div> */}
     </Section>
   );
 };
