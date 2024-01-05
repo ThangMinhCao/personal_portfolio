@@ -9,7 +9,7 @@ import { FaAngleDoubleUp } from "react-icons/fa";
 function Home() {
   return (
     <div className="container">
-      <div className="button-bar">
+      <div className="button-bar home-button-bar">
         <MusicButton withText={false} />
       </div>
       <Hero />

@@ -1,0 +1,8 @@
+.songs-container {
+  position: relative;
+  height: 100%;
+  width: 100vw;
+  background: #000000;
+  backdrop-filter: blur(10px);
+  z-index: 5;
+}

@@ -3,7 +3,6 @@ import { Title, LightText, MediumText } from "../../../../components/Typography"
 import portrait from "../../../../assets/portraits/1.jpg";
 import SocialLinks from "../../../../components/SocialLinks/SocialLinks";
 import "./Hero.css";
-import { MusicButton } from "../../../../components/Buttons/Buttons";
 
 const Hero = () => {
   return (

@@ -11,6 +11,7 @@ export const MusicButton = ({
   white = false,
   withText = true,
   filled = false,
+  bordered = true
 }) => {
   const navigate = useNavigate();
 
@@ -20,8 +21,9 @@ export const MusicButton = ({
       className="back-home-button"
       style={{
         color: white ? "white" : "black",
-        border: `0.7px ${white ? "white" : "black"} solid`,
-        background: filled ? (white ? "black" : "white") : "transparent",
+        border: bordered ? `0.7px ${white ? "white" : "black"} solid` : "none",
+        borderRadius: 50,
+        background: filled ? (white ? "black" : "white") : "#ffffff30",
       }}
     >
       <IoMusicalNotes fontSize={buttonIconSize} />
@@ -37,6 +39,7 @@ export const SoftwareButton = ({
   white = false,
   withText = true,
   filled = false,
+  bordered = true
 }) => {
   const navigate = useNavigate();
 
@@ -46,8 +49,9 @@ export const SoftwareButton = ({
       className="back-home-button"
       style={{
         color: white ? "white" : "black",
-        border: `0.7px ${white ? "white" : "black"} solid`,
-        background: filled ? (white ? "#21212180" : "white") : "transparent",
+        border: bordered ? `0.7px ${white ? "white" : "black"} solid` : "none",
+        borderRadius: 50,
+        background: filled ? (white ? "#00000010" : "white") : "#ffffff30",
       }}
     >
       <FaComputer fontSize={buttonIconSize} />

@@ -1,35 +1,26 @@
 import "./Music.css";
-import portrait from "../../assets/portraits/2.jpg";
 import SocialLinks from "../../components/SocialLinks/SocialLinks";
 import { SoftwareButton } from "../../components/Buttons/Buttons";
-
-const BTD_Link = "https://distrokid.com/hyperfollow/thangcao/bc-th-u-2"
+import MusicHero from "./sections/Hero/Hero";
+import NewRelease from "./sections/NewRelease/NewRelease";
+import Songs from "./sections/Songs/Songs";
+import { useInView } from 'react-intersection-observer';
 
 function Home() {
+  const { ref, inView } = useInView({ threshold: 0.35 });
+
   return (
     <div className="container">
-      <div className="button-bar music-button-bar">
+      <div id="music-background" className={`${inView ? "blurred" : ""}`} />
+      <div
+        className={`button-bar music-button-bar ${inView ? "black-filled" : ""}`}
+      >
         <SoftwareButton white withText={false} filled />
-        <div className="music-image-container">
-          <div className="music-image-cropper float-hover">
-            <img className="image" alt="Portrait" src={portrait} />
-          </div>
-        </div>
       </div>
-      <div id="music-background" />
-      <div className="music-content-container">
-        {/* <TitleArtist className="artist-name">Thang Cao</TitleArtist> */}
-        <div className="music-content">
-          <div id="current-release">
-            BỨC THƯ ĐẦU // <br/> Out Now
-            <a target="_blank" rel="noopener noreferrer" href={BTD_Link}>
-              <button className="listen-button">Listen</button>
-            </a>
-          </div>
-        </div>
-
-        <SocialLinks white music position="right" />
-      </div>
+      <MusicHero />
+      <NewRelease />
+      <Songs containerRef={ref}/>
+      <SocialLinks white music position="right" fixed />
     </div>
   );
 }

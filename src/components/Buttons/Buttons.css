@@ -7,15 +7,16 @@
 	border: none;
 	outline: inherit;
   padding: 10px;
-  border-radius: 5px;
   cursor: pointer;
+  backdrop-filter: blur(6px);
 }
 
 .back-home-button:hover {
-  background-color: #0000002a !important;
+  background-color: #ffffff2a !important;
 }
 
 .back-home-button-text {
   display: flex;
   align-items: center;
+  margin-left: 5px;
 }

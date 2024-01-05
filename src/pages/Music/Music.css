@@ -11,23 +11,15 @@
   scroll-behavior: smooth;
 }
 
-.container {
-  background: #000000;
+#music-background {
+  position: fixed;
   height: 100vh;
   width: 100vw;
-  position: fixed;
-  bottom: 0;
-}
-
-#music-background {
-  position: absolute;
-  height: 100%;
-  width: 100%;
   background: url(../../assets/backgrounds/music_background.jpeg);
   background-size: cover;
   background-position: center;
-  /* filter: blur(0px) brightness(.8); */
   z-index: -100;
+  transition: filter .4s;
 }
 
 .music-content-container {
@@ -56,38 +48,7 @@
   white-space: nowrap;
 }
 
-.music-image-cropper {
-  height: 50px;
-  width: 50px;
-  border-radius: 50px;
-  border: #0e0e0e45 1px solid;
-  overflow: hidden;
-  border: 1px white solid;
-}
-
-.music-image-cropper:hover {
-  width: 150px;
-  height: 150px;
-  border: .7px white solid;
-  border-radius: 10px;
-  transform: none;
-  box-shadow: none;
-}
-
-.music-image-container {
-  position: fixed;
-  width: fit-content;
-  padding: 20px 25px 20px 25px;
-  top: 0;
-  right: 0;
-  justify-content: flex-end;
-}
-
 @media only screen and (max-width: 900px) {
-  .container {
-    scroll-snap-type: none;
-  }
-
   .links {
     flex-direction: row;
   }
@@ -112,11 +73,13 @@
 }
 
 .music-button-bar {
-  /* position: fixed !important; */
+  top: 0;
+  padding: 25px;
   color: white;
   width: 100%;
   justify-content: flex-start !important;
-  z-index: 1001;
+  z-index: 10;
+  transition: background 0.2s;
 }
 
 .artist-name {
@@ -129,25 +92,6 @@
   color: white;
 }
 
-#current-release {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-between;
-
-  font-family: 'Fjalla One', sans-serif;
-  font-size: calc(1vw + 20px);
-  text-align: right;
-  position: absolute;
-  bottom: 150px;
-  right: 20px;
-  padding: 30px;
-  color: white;
-  border: 5px white solid;
-  backdrop-filter: blur(3px);
-  box-shadow: rgba(0, 0, 0, .8) 10px 10px 25px 5px;
-}
-
 .listen-button {
   background: #fff;
   color: black;
@@ -157,4 +101,14 @@
   font-size: calc(.8vw + 12px);
   font-family: 'Fjalla One', sans-serif;
   margin-top: 10px;
+}
+
+.black-filled {
+  background: #000;
+  transition: background .4s;
+}
+
+.blurred {
+  filter: blur(5px);
+  transition: filter .4s;
 }

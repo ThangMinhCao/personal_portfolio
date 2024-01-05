@@ -1,0 +1,103 @@
+.music-hero-container {
+  height: 100vh;
+  width: 100vw;
+  background: #00000055;
+}
+
+.backdrop {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  backdrop-filter: blur(10px);
+}
+.portrait-container {
+  width: fit-content;
+  z-index: 9;
+}
+
+.mini-portrait-container {
+  top: 0;
+  right: 0;
+  transition: opacity 0.2s;
+  padding: 20px 25px 20px 25px;
+  position: fixed;
+}
+
+.big-portrait-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+
+.mini-portrait-cropper {
+  transition: all 0.1s;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: #0e0e0e45 1px solid;
+  overflow: hidden;
+  border: 1px white solid;
+}
+
+.mini-portrait-cropper:hover {
+  transition: all 0.1s;
+  transform: none;
+  box-shadow: none;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.big-portrait-cropper {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hidden {
+  transition: opacity 0.1s;
+  opacity: 0;
+}
+
+.music-font {
+  /* padding-right: 10px; */
+  /* font-family: 'Fjalla One', sans-serif;
+  font-family: 'Antonio', sans-serif; */
+  font-family: 'Rubik Glitch', system-ui;
+  font-style: italic;
+  color: white;
+  /* text-align: right; */
+}
+
+.music-title {
+  /* font-family: 'Rubik Glitch', system-ui; */
+  /* font-family: 'Tilt Prism', sans-serif; */
+  padding: 5%;
+  z-index: 0;
+  width: 100vw;
+  font-size: calc(4vw + 50px);
+  position: absolute;
+  bottom: 15%;
+  /* left: 10%; */
+  z-index: 9;
+}
+
+.music-normal {
+  font-size: calc(1vw + 20px);
+}
+
+#its-word {
+  padding-left: 25px;
+}
+
+#making-music-word {
+  /* text-align: right; */
+}
+
+#name {
+  font-family: 'Londrina Sketch', sans-serif;
+  padding-left: 2px;
+  /* text-align: center; */
+}

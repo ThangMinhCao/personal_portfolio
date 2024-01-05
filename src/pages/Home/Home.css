@@ -79,7 +79,7 @@
   box-shadow: rgba(0, 0, 0, 0.46) 0px 30px 30px 2px;
 }
 
-@media only screen and (max-width: 1000px) and (min-height: 550px) {
+@media only screen and (max-width: 1000px) {
   section {
     display: flex;
     flex-direction: column;
@@ -158,12 +158,14 @@
 
 .button-bar {
   position: fixed;
+  width: fit-content!;
   display: flex;
-  justify-content: flex-start !important;
   z-index: 9;
-  padding: 25px;
-  right: 0px;
-  top: 0px;
+}
+
+.home-button-bar {
+  left: 25px;
+  top: 25px;
 }
 
 #arrow-direction {
