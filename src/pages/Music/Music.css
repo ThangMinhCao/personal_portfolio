@@ -80,6 +80,7 @@
   justify-content: flex-start !important;
   z-index: 10;
   transition: background 0.2s;
+  overflow: hidden;
 }
 
 .artist-name {
@@ -98,7 +99,7 @@
   border: none;
   cursor: pointer;
   padding: 5px 10px 5px 10px;
-  font-size: calc(.8vw + 12px);
+  font-size: calc(.8vw + 13px);
   font-family: 'Fjalla One', sans-serif;
   margin-top: 10px;
 }

@@ -1,6 +1,6 @@
 .new-release-container {
   position: relative;
-  height: calc(100% + 200px);
+  height: calc(100vh + 150px);
   width: 100%;
   z-index: 1;
 

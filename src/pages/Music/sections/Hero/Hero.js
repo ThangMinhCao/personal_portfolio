@@ -15,14 +15,13 @@ function MusicHero() {
       </div>
       <div className="music-title music-font">
         <p id="its-word" className="music-font music-normal">
-          It's
+          It's another
         </p>
         <p id="name" className="music-font">
-          THANG CAO
+          THANG
+          <GiMusicalNotes style={{ paddingLeft: 15, fontSize: 35 }} />
         </p>
-        <p id="in-music-word" className="music-font">
-          in music <GiMusicalNotes />
-        </p>
+        <p id="in-music-word" className="music-font"></p>
       </div>
       <div className="arrow-direction music-arrow">
         <FaAngleDoubleUp className="arrow-icon" />

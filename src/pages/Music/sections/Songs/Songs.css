@@ -1,18 +1,29 @@
 .songs-container {
   position: relative;
-  height: 100%;
+  display: block;
   width: 100vw;
+  padding-top: 100px;
+  padding-bottom: 50px;
   background: #000000;
   backdrop-filter: blur(10px);
   z-index: 5;
 }
 
 .songs-section-title {
-  position: absolute;
   color: white;
   top: 100px;
   right: 10%;
   z-index: 16;
   font-family: 'Rubik Marker Hatch', system-ui;
+  font-family: 'Rubik Dirt', system-ui;
   font-size: calc(4vw + 30px);
+  text-align: right;
+  padding: 20px;
+  padding-right: 10%;
+}
+
+.songs-content {
+  padding: 20px;
+  width: 100%;
+  margin-top: 5%;
 }
