@@ -63,12 +63,9 @@
 
 .music-font {
   /* padding-right: 10px; */
-  /* font-family: 'Fjalla One', sans-serif;
-  font-family: 'Antonio', sans-serif; */
   font-family: 'Rubik Glitch', system-ui;
   font-style: italic;
   color: white;
-  /* text-align: right; */
 }
 
 .music-title {
@@ -76,28 +73,33 @@
   /* font-family: 'Tilt Prism', sans-serif; */
   padding: 5%;
   z-index: 0;
-  width: 100vw;
-  font-size: calc(4vw + 50px);
+  font-size: calc(4vw + 30px);
   position: absolute;
   bottom: 15%;
-  /* left: 10%; */
+  left: 0;
   z-index: 9;
 }
 
-.music-normal {
-  font-size: calc(1vw + 20px);
-}
-
 #its-word {
-  padding-left: 25px;
+  font-size: calc(1vw + 20px);
+  padding-left: calc(1vw + 10px);
 }
 
-#making-music-word {
-  /* text-align: right; */
+#in-music-word {
+  font-size: calc(1vw + 10px);
+  text-align: right;
+  /* font-family: 'Waiting for the Sunrise', cursive; */
 }
 
 #name {
-  font-family: 'Londrina Sketch', sans-serif;
+  font-family: 'Rubik Dirt', system-ui;
   padding-left: 2px;
-  /* text-align: center; */
+}
+
+.music-arrow {
+  left: 0;
+  border-radius: 0 5px 0 0;
+  background: #ffffff3e;
+  box-shadow: #fdfdfd61 0px 0px 10px 1px;
+  z-index: 9;
 }

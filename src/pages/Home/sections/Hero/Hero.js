@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="content">
           <div className="text-wrapper text-right">
             <MediumText>HI THERE!</MediumText>
-            <Title>IT'S THANG.</Title>
+            <Title>IT'S THANG CAO.</Title>
             <LightText>
               Ex SDE Intern{" "}
               <span className="text-no-wrap">at <b>Amazon</b> & <b>Kinaxis</b></span>

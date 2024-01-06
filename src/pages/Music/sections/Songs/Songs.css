@@ -6,3 +6,13 @@
   backdrop-filter: blur(10px);
   z-index: 5;
 }
+
+.songs-section-title {
+  position: absolute;
+  color: white;
+  top: 100px;
+  right: 10%;
+  z-index: 16;
+  font-family: 'Rubik Marker Hatch', system-ui;
+  font-size: calc(4vw + 30px);
+}

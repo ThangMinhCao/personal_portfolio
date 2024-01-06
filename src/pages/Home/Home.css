@@ -164,16 +164,17 @@
 }
 
 .home-button-bar {
-  left: 25px;
-  top: 25px;
+  left: 15px;
+  top: 15px;
 }
 
-#arrow-direction {
+.arrow-direction {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 23px;
-  height: 40px;
+  width: 15px;
+  height: 32px;
+  font-size: 10px;
 
   display: flex;
   flex-direction: column;
@@ -181,14 +182,14 @@
   align-items: center;
   padding-bottom: 5px;
 
-  background: #ffffff4b;
+  background: #00000045;
   color: #fff;
   border-radius: 5px 0 0 0;
-  box-shadow: #ffffff49 0px 0px 10px 1px;
-  z-index: 0;
+  box-shadow: #0000005f 0px 0px 10px 2px;
+  z-index: 5;
 }
 
-#arrow-icon {
+.arrow-icon {
   animation: fly-up-down 1s ease-in-out infinite;
 }
 

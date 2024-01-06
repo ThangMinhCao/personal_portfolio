@@ -16,8 +16,8 @@ function Home() {
       <Education />
       <Experience />
       <Projects />
-      <div id="arrow-direction">
-        <FaAngleDoubleUp id="arrow-icon" />
+      <div className="arrow-direction">
+        <FaAngleDoubleUp className="arrow-icon" />
       </div>
     </div>
   );

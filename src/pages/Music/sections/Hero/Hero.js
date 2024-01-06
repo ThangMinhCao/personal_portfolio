@@ -1,11 +1,10 @@
 import "./Hero.css";
 import portrait from "../../../../assets/portraits/2.jpg";
 import Section from "../../../../components/Section";
-// import { useInView } from "react-intersection-observer";
+import { FaAngleDoubleUp } from "react-icons/fa";
+import { GiMusicalNotes } from "react-icons/gi";
 
 function MusicHero() {
-  // const { ref, inView, entry } = useInView({ threshold: 0 });
-
   return (
     <Section className="music-hero-container">
       <div className="backdrop" />
@@ -21,9 +20,12 @@ function MusicHero() {
         <p id="name" className="music-font">
           THANG CAO
         </p>
-        <p id="making-music-word" className="music-font music-normal">
-          making music
+        <p id="in-music-word" className="music-font">
+          in music <GiMusicalNotes />
         </p>
+      </div>
+      <div className="arrow-direction music-arrow">
+        <FaAngleDoubleUp className="arrow-icon" />
       </div>
     </Section>
   );
