@@ -6,7 +6,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <Section className="hero-container" backgroundColor="#C7E1FF">
+    <Section key="hero" className="hero-container" backgroundColor="#C7E1FF">
       <div className="content-container">
         <div className="content">
           <div className="text-wrapper text-right">
@@ -28,8 +28,11 @@ const Hero = () => {
               <img className="image" alt="Portrait" src={portrait} />
             </div>
           </div>
+          <SocialLinks />
         </div>
-        <SocialLinks />
+        {/* <div className="arrow-direction">
+          <FaAngleDoubleUp className="arrow-icon" />
+        </div> */}
       </div>
     </Section>
   );

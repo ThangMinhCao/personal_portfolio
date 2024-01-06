@@ -1,5 +1,6 @@
 .experience-container {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   padding: 10px;
   z-index: 8;
@@ -18,11 +19,10 @@
 
 .exp-title {
   color: white;
-  position: sticky;
-  top: 40%;
   width: fit-content;
   text-align: center;
   margin: auto;
+  margin-top: 50px;
 }
 
 .timeline {

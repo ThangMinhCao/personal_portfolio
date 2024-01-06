@@ -3,7 +3,7 @@
   width: 100%;
   bottom: 0px;
   padding: 5px;
-  position: absolute;
+  /* position: absolute; */
   display: flex;
   z-index: 1000;
   align-items: center;

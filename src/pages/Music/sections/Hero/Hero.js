@@ -6,7 +6,7 @@ import { GiMusicalNotes } from "react-icons/gi";
 
 function MusicHero() {
   return (
-    <Section className="music-hero-container">
+    <Section key="music-hero" className="music-hero-container">
       <div className="backdrop" />
       <div className="portrait-container big-portrait-container">
         <div className="big-portrait-cropper">

@@ -5,8 +5,10 @@
   background-size: 200% 200%;
   animation: gradient 5s ease infinite;
 
-  /* position: sticky; */
+  /* position: fixed; */
   /* top: 0; */
+  height: 100svh;
+  z-index: -1;
 }
 
 .text-right {
@@ -20,3 +22,39 @@
   height: 100%;
   object-fit: cover;
 } 
+
+.arrow-direction {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  width: 15px;
+  height: 32px;
+  font-size: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 5px;
+
+  /* background: #00000045; */
+  color: #ffffff;
+  border-radius: 5px 0 0 0;
+  box-shadow: #0000005f 0px 0px 5px 1px;
+}
+
+.arrow-icon {
+  animation: fly-up-down 1s ease-in-out infinite;
+}
+
+@keyframes fly-up-down {
+  0% {
+    transform: translateY(-3px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(-3px);
+  }
+}

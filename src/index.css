@@ -1,3 +1,4 @@
 body {
-  background: #000000;
+  min-height: 100%;
+  scroll-behavior: smooth;
 }

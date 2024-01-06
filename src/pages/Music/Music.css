@@ -13,7 +13,7 @@
 
 #music-background {
   position: fixed;
-  height: 100vh;
+  height: 100lvh;
   width: 100vw;
   background: url(../../assets/backgrounds/music_background.jpeg);
   background-size: cover;
@@ -25,7 +25,7 @@
 .music-content-container {
   min-width: 400px;
   display: flex;
-  min-height: 100vh;
+  min-height: 100dvh;
   flex-direction: column;
   align-items: center;
 }
@@ -51,10 +51,6 @@
 @media only screen and (max-width: 900px) {
   .links {
     flex-direction: row;
-  }
-
-  .text-wrapper {
-    flex: 0;
   }
 
   .text-wrapper > * {
@@ -107,9 +103,4 @@
 .black-filled {
   background: #000;
   transition: background .4s;
-}
-
-.blurred {
-  filter: blur(5px);
-  transition: filter .4s;
 }

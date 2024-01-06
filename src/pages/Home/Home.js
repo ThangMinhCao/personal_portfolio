@@ -4,7 +4,7 @@ import Education from "./sections/Education/Education";
 import Experience from "./sections/Experience/Experience";
 import Projects from "./sections/Projects/Projects";
 import { MusicButton } from "../../components/Buttons/Buttons";
-import { FaAngleDoubleUp } from "react-icons/fa";
+import { ScrollRestoration } from "react-router-dom";
 
 function Home() {
   return (
@@ -16,9 +16,7 @@ function Home() {
       <Education />
       <Experience />
       <Projects />
-      <div className="arrow-direction">
-        <FaAngleDoubleUp className="arrow-icon" />
-      </div>
+      <ScrollRestoration />
     </div>
   );
 }

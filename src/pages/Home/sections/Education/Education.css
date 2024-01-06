@@ -1,11 +1,7 @@
 .edu-container {
   background: #ffa58e;
-  height: calc(100vh + 100px);
-
-  position: sticky;
-  top: 0;
+  height: 100svh;
   z-index: 6;
-  /* scroll-snap-align: start; */
 }
 
 .floating {
@@ -14,14 +10,6 @@
 
 .text {
   text-align: start;
-}
-
-.wave1 {
-  transform: translateY(5px);
-  background: "#ffa58e";
-  overflow: visible;
-  height: 100px;
-  width: 100%;
 }
 
 .path1 {

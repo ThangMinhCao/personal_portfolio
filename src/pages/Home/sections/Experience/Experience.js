@@ -7,14 +7,14 @@ import "./Experience.css";
 const Experience = () => {
   return (
     <Section className="experience-container">
-      <div className="exp-title-container">
-        <div className="exp-title">
-          <Title>
-            MY JOURNEY
-          </Title>
-          <MediumText>SO FAR</MediumText>
-        </div>
+      <div className="exp-title">
+        <Title>
+          MY JOURNEY
+        </Title>
+        <MediumText>SO FAR</MediumText>
       </div>
+      {/* <div className="exp-title-container">
+      </div> */}
       <div className="timeline">
         {info.experiences.map(
           ({ company, logo, title, date, description }, index) =>

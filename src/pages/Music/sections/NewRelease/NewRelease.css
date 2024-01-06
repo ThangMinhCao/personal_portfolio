@@ -1,14 +1,11 @@
 .new-release-container {
   position: relative;
-  height: calc(100vh + 150px);
+  height: calc(100dvh + 150px);
   width: 100%;
   z-index: 1;
 
   left: 0;
   top: 0;
-
-  /* scroll-snap-type: y proximity;
-  scroll-snap-align: start; */
 }
 
 #current-release {
@@ -20,12 +17,12 @@
   font-family: 'Fjalla One', sans-serif;
   font-size: calc(1vw + 20px);
   text-align: right;
-  position: fixed;
-  bottom: 20%;
+  position: absolute;
+  top: 50%;
   right: 20px;
   padding: 30px;
   color: white;
   border: 5px white solid;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(5px);
   box-shadow: rgba(0, 0, 0, .8) 10px 10px 25px 5px;
 }
