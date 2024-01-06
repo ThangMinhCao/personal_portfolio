@@ -3,7 +3,6 @@
   display: block;
   width: 100vw;
   padding-top: 100px;
-  padding-bottom: 50px;
   background: #000000;
   backdrop-filter: blur(10px);
   z-index: 5;

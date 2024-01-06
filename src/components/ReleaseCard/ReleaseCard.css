@@ -1,12 +1,11 @@
 .release-card {
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: column;
   width: min(100%, 80vh);
 }
 
 .release-card-image {
-  /* width: max(50vh, 60vw); */
   width: 100%;
   object-fit: cover;
 }
