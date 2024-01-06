@@ -10,7 +10,10 @@ function Songs({ containerRef }) {
 
   return (
     <Section ref={containerRef} className="songs-container">
-      <div className="songs-section-title">RELEASES</div>
+      <div className="songs-section-title">
+        RELEASES
+        <div className="half-divider"/>
+      </div>
       <div className="songs-content">
         <ReleaseCard
           img={BTDArtwork}

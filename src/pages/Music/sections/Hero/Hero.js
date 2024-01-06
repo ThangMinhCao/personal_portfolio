@@ -22,6 +22,7 @@ function MusicHero() {
           <GiMusicalNotes style={{ paddingLeft: 15, fontSize: 35 }} />
         </p>
         <p id="in-music-word" className="music-font"></p>
+        <div style={{ marginLeft: 5 }} className="half-divider"/>
       </div>
       <div className="arrow-direction music-arrow">
         <FaAngleDoubleUp className="arrow-icon" />
