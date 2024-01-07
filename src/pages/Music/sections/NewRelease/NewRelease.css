@@ -29,9 +29,9 @@
 }
 
 #music-background {
-  /* position: fixed; */
-  /* height: 100svh; */
-  /* width: calc(100% - var(--container-padding) * 2); */
+  position: fixed;
+  height: 100svh;
+  width: calc(100% - var(--container-padding) * 2);
   /* width: 100%; */
   top: 0;
 
