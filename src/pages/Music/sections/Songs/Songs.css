@@ -2,16 +2,18 @@
   position: relative;
   display: block;
   width: 100vw;
-  padding: 5vw;
+  padding: 10vw;
   background: #000000;
-  backdrop-filter: blur(10px);
+  background: url(../../../../assets/backgrounds/music_background_doodle.png) no-repeat center center fixed;
+  background-size: contain;
+  background-repeat: repeat;
   z-index: 5;
 }
 
 .songs-section-title {
+  width: 100%;
   color: white;
   top: 100px;
-  /* right: 10%; */
   z-index: 16;
   font-family: 'Rubik Dirt', system-ui;
   font-size: calc(4vw + 30px);
@@ -23,7 +25,6 @@
 }
 
 .songs-content {
-  /* padding: 20px; */
   width: 100%;
   margin-top: 5%;
 }
@@ -37,12 +38,12 @@
 
 @keyframes divider-length {
 	0% {
-    width: 100%;
+    width: 80%;
 	}
 	50% {
     width: 100px;
 	}
 	100% {
-    width: 100%;
+    width: 80%;
 	}
 }

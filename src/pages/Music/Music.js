@@ -8,8 +8,7 @@ import { ScrollRestoration } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="container">
-      <div id="music-background"/>
+    <div className="container music-container">
       <div className="button-bar music-button-bar">
         <SoftwareButton white withText={false} filled />
       </div>

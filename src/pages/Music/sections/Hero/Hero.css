@@ -1,7 +1,6 @@
 .music-hero-container {
-  height: 100dvh;
+  height: 100svh;
   width: 100%;
-  /* overflow-x: hidden; */
   background: #00000055;
 }
 
@@ -16,49 +15,16 @@
   z-index: 9;
 }
 
-.mini-portrait-container {
-  top: 0;
-  right: 0;
-  transition: opacity 0.2s;
-  padding: 20px 25px 20px 25px;
-  position: fixed;
-}
-
 .big-portrait-container {
   position: absolute;
-  height: 100dvh;
+  height: 100svh;
   width: 100%;
   top: 0;
 }
 
-.mini-portrait-cropper {
-  transition: all 0.1s;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  border: #0e0e0e45 1px solid;
-  overflow: hidden;
-  border: 1px white solid;
-}
-
-.mini-portrait-cropper:hover {
-  transition: all 0.1s;
-  transform: none;
-  box-shadow: none;
-  width: 100px;
-  height: 100px;
-  border-radius: 5px;
-}
-
 .big-portrait-cropper {
   height: 100%;
-  /* width: 100%; */
   overflow: hidden;
-}
-
-.hidden {
-  transition: opacity 0.1s;
-  opacity: 0;
 }
 
 .music-font {
@@ -91,7 +57,6 @@
 .music-arrow {
   left: 0;
   border-radius: 0 5px 0 0;
-  background: transparent;
   box-shadow: #fdfdfd61 0px 0px 10px 1px;
   z-index: 9;
 }

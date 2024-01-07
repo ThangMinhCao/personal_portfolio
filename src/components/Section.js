@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const Section = styled.section`
-  min-height: 100dvh;
   min-width: 300px;
   width: 100%;
   position: relative;

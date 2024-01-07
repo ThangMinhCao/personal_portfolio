@@ -2,7 +2,7 @@
   left: 0;
   width: 100%;
   bottom: 0px;
-  padding: 5px;
+  padding: 10px;
   /* position: absolute; */
   display: flex;
   z-index: 1000;
@@ -70,8 +70,7 @@
 }
 
 .music-icon-button {
-  width: 20px;
-  background-size: 100%;
+  width: 22px;
 }
 
 .icon-button:hover {

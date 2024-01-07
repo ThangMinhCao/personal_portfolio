@@ -1,11 +1,12 @@
 .new-release-container {
   position: relative;
-  height: calc(100dvh + 150px);
+  height: 120vh;
   width: 100%;
   z-index: 1;
 
   left: 0;
   top: 0;
+  background: transparent;
 }
 
 #current-release {
@@ -25,4 +26,17 @@
   border: 5px white solid;
   backdrop-filter: blur(5px);
   box-shadow: rgba(0, 0, 0, .8) 10px 10px 25px 5px;
+}
+
+#music-background {
+  /* position: fixed; */
+  /* height: 100svh; */
+  /* width: calc(100% - var(--container-padding) * 2); */
+  /* width: 100%; */
+  top: 0;
+
+  background: url(../../../../assets/backgrounds/music_background.jpeg);
+  background-color: black;
+  background-size: cover;
+  background-position: center;
 }

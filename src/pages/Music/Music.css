@@ -1,5 +1,6 @@
 :root {
   --social-link-height: 50px;
+  --container-padding: 5px;
 }
 
 * {
@@ -10,31 +11,22 @@
   font-family: Lato, Roboto, sans-serif;
   scroll-behavior: smooth;
 }
-
+/* 
 #music-background {
   position: fixed;
-  height: 100lvh;
+  height: 100vh;
   width: 100vw;
   background: url(../../assets/backgrounds/music_background.jpeg);
   background-size: cover;
   background-position: center;
-  z-index: -100;
-  transition: filter .4s;
-}
+} */
 
-.music-content-container {
-  min-width: 400px;
-  display: flex;
-  min-height: 100dvh;
-  flex-direction: column;
-  align-items: center;
-}
-
-.music-content {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  justify-content: center;
+.music-container {
+  background: url(../../assets/backgrounds/music_background_doodle.png) no-repeat center center fixed;
+  background-size: contain;
+  background-repeat: repeat;
+  padding-left: var(--container-padding);
+  padding-right: var(--container-padding);
 }
 
 .text-wrapper {
