@@ -27,7 +27,7 @@ const Education = () => {
                 Co-operative Education
                 <br/>
                 <br/>
-                GPA: {<MediumText>11.34/12 (A+)</MediumText>}
+                GPA: {<MediumText>11.30/12 (A+)</MediumText>}
                 <br/>
                 On Dean's Honour List since 2019
               </LightText>
