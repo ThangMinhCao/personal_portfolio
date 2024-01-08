@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import {
   RouterProvider,
   createBrowserRouter,
@@ -21,9 +21,8 @@ const router = createBrowserRouter([
   },
 ]);
 
-ReactDOM.render(
+createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>,
-  document.getElementById("root")
 );

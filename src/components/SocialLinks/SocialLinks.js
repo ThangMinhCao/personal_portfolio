@@ -15,11 +15,15 @@ const SocialLinks = ({
   background = undefined,
   position = "centered",
   fixed = false,
+  inverted = false,
 }) => {
   return !music ? (
     <div
       className={`links ${white ? "white-icons" : ""} ${position}-links`}
-      style={{ background: background ? background : "", position: fixed ? "fixed" : "absolute" }}
+      style={{
+        background: background ? background : "",
+        position: fixed ? "fixed" : "absolute",
+      }}
     >
       <a target="_blank" rel="noopener noreferrer" href={LINKEDIN_LINK}>
         <button className="icon-button linkedin-button" />
@@ -34,7 +38,11 @@ const SocialLinks = ({
   ) : (
     <div
       className={`links ${white ? "white-icons" : ""} ${position}-links`}
-      style={{ background: background ? background : "", position: fixed ? "fixed" : "absolute" }}
+      style={{
+        background: background ? background : "",
+        position: fixed ? "fixed" : "absolute",
+        filter: `invert(${inverted ? 1 : 0})`,
+      }}
     >
       <a target="_blank" rel="noopener noreferrer" href={FACEBOOK_LINK}>
         <button className="icon-button facebook-button music-icon-button" />

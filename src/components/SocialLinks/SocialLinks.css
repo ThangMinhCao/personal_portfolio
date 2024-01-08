@@ -8,6 +8,7 @@
   display: flex;
   z-index: 1000;
   align-items: center;
+  transition: filter 0.5s;
 }
 
 .centered-links {
