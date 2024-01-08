@@ -1,6 +1,6 @@
 // import { MusicButton } from "../../../../components/Buttons/Buttons";
 import CardItem from "../../../../components/CardItem/CardItem";
-import Section from "../../../../components/Section";
+import { HomeSection } from "../../../../components/Section";
 import SocialLinks from "../../../../components/SocialLinks/SocialLinks";
 import { MediumText, Title } from "../../../../components/Typography";
 import { info } from "../../../../data/itemInfo";
@@ -8,7 +8,7 @@ import "./Projects.css";
 
 const Projects = () => {
   return (
-    <Section className="project-container">
+    <HomeSection className="project-container">
       <div className="main-projects-container">
         <div className="project-list">
           {info.projects.map(
@@ -42,7 +42,7 @@ const Projects = () => {
       {/* <div className="project-button-bar">
         <MusicButton white />
       </div> */}
-    </Section>
+    </HomeSection>
   );
 };
 

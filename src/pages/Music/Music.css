@@ -64,14 +64,11 @@
 }
 
 .music-button-bar {
-  width: 100vw;
   top: 0;
   left: 0;
   padding: 15px;
   color: white;
-  width: 100%;
   justify-content: flex-start !important;
-  z-index: 10;
   transition: background 0.2s;
   overflow: hidden;
 }

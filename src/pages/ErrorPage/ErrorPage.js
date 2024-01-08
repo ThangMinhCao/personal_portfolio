@@ -1,4 +1,4 @@
-import Section from "../../components/Section";
+import { HomeSection } from "../../components/Section";
 import {
   Title,
   LightText,
@@ -13,7 +13,7 @@ const ErrorPage = () => {
   const error = useRouteError();
 
   return (
-    <Section id="error-page">
+    <HomeSection id="error-page">
       <div className="button-bar error-button-bar">
         <MusicButton white />
         <SoftwareButton white />
@@ -27,7 +27,7 @@ const ErrorPage = () => {
 
       <SocialLinks white />
       <span className="credit credit-error">Made by Minh Thang Cao</span>
-    </Section>
+    </HomeSection>
   );
 };
 

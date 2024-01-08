@@ -1,4 +1,4 @@
-import Section from "../../../../components/Section";
+import { HomeSection } from "../../../../components/Section";
 import { Title, LightText, MediumText } from "../../../../components/Typography";
 import portrait from "../../../../assets/portraits/1.jpg";
 import SocialLinks from "../../../../components/SocialLinks/SocialLinks";
@@ -6,7 +6,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <Section key="hero" className="hero-container" backgroundColor="#C7E1FF">
+    <HomeSection key="hero" className="hero-container" backgroundColor="#C7E1FF">
       <div className="content-container">
         <div className="content">
           <div className="text-wrapper text-right">
@@ -34,7 +34,7 @@ const Hero = () => {
           <FaAngleDoubleUp className="arrow-icon" />
         </div> */}
       </div>
-    </Section>
+    </HomeSection>
   );
 };
 

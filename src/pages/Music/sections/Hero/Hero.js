@@ -1,12 +1,12 @@
 import "./Hero.css";
 import portrait from "../../../../assets/portraits/2.jpg";
 import portraitTransparent from "../../../../assets/portraits/2-transparent.png";
-import Section from "../../../../components/Section";
+import { MusicSection } from "../../../../components/Section";
 import { GiMusicalNotes } from "react-icons/gi";
 
 function MusicHero() {
   return (
-    <Section
+    <MusicSection
       key="music-hero"
       className="music-hero-container"
     >
@@ -36,7 +36,7 @@ function MusicHero() {
       </div> */}
       {/* <div className="backdrop" /> */}
       {/* <div className="transparent-doodles" /> */}
-    </Section>
+    </MusicSection>
   );
 }
 

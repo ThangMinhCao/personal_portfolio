@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Section = styled.section`
+export const HomeSection = styled.section`
   min-width: 300px;
   width: 100%;
   position: relative;
@@ -9,5 +9,8 @@ const Section = styled.section`
   flex-direction: column;
   justify-content: center;
 `
-
-export default Section;
+export const MusicSection = styled.section`
+  min-width: 300px;
+  width: 100%;
+  position: relative;
+`

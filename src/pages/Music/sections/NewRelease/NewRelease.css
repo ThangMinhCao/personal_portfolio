@@ -1,16 +1,15 @@
 .new-release-container {
   position: relative;
+  display: flex;
   height: 50vh;
   min-height: 300px;
   width: 100%;
   z-index: 10;
 
-  left: 0;
-  top: 0;
-
   padding: 50px;
   flex-direction: row !important;
   justify-content: flex-end !important;
+  align-items: center;
 }
 
 #current-release {
@@ -22,9 +21,8 @@
   font-family: 'Fjalla One', sans-serif;
   font-size: calc(1vw + 20px);
   text-align: right;
-  /* position: absolute; */
-  top: 50%;
-  right: 20px;
+  width: fit-content;
+  height: fit-content;
   padding: 30px;
   color: white;
   border: 5px white solid;

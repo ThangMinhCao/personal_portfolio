@@ -1,11 +1,11 @@
-import Section from "../../../../components/Section"; 
+import { HomeSection } from "../../../../components/Section"; 
 import { Title, Subtitle, LightText, MediumText } from "../../../../components/Typography";
 import carletonLogo from "../../../../assets/carleton_logo.jpg";
 import "./Education.css";
 
 const Education = () => {
   return (
-    <Section className="edu-container">
+    <HomeSection className="edu-container">
         <div className="content-container">
           <div className="content">
             <div className="image-container">
@@ -34,7 +34,7 @@ const Education = () => {
             </div>
           </div>
         </div>
-    </Section>
+    </HomeSection>
   )
 };
 

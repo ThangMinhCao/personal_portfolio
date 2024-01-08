@@ -1,5 +1,5 @@
 import "./Songs.css";
-import Section from "../../../../components/Section";
+import { MusicSection } from "../../../../components/Section";
 import ReleaseCard from "../../../../components/ReleaseCard/ReleaseCard";
 import BTDArtwork from "../../../../assets/album-covers/buc_thu_dau.jpg";
 import VMYRArtwork from "../../../../assets/album-covers/vi_minh_yeu_roi.jpeg";
@@ -9,7 +9,7 @@ function Songs({ containerRef }) {
   const VMYR_Link = "https://distrokid.com/hyperfollow/thangcao/v-mnh-yu-ri-11";
 
   return (
-    <Section ref={containerRef} className="songs-container">
+    <MusicSection ref={containerRef} className="songs-container">
       <div className="songs-section-title">
         RELEASES
         <div className="half-divider"/>
@@ -28,7 +28,7 @@ function Songs({ containerRef }) {
           releaseDate="01/10/2021"
         />
       </div>
-    </Section>
+    </MusicSection>
   );
 }
 

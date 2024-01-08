@@ -1,4 +1,4 @@
-import Section from "../../../../components/Section";
+import { HomeSection } from "../../../../components/Section";
 import CardItem from "../../../../components/CardItem/CardItem";
 import { info } from "../../../../data/itemInfo";
 import { Title, MediumText } from "../../../../components/Typography";
@@ -6,7 +6,7 @@ import "./Experience.css";
 
 const Experience = () => {
   return (
-    <Section className="experience-container">
+    <HomeSection className="experience-container">
       <div className="exp-title">
         <Title>
           MY JOURNEY
@@ -29,7 +29,7 @@ const Experience = () => {
             />
         )}
       </div>
-    </Section>
+    </HomeSection>
   );
 };
 
