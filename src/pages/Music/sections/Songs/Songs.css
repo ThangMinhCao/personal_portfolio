@@ -3,11 +3,12 @@
   display: block;
   width: 100vw;
   padding: 10vw;
-  background: #000000;
   background: url(../../../../assets/backgrounds/music_background_doodle.png) no-repeat center center fixed;
-  background-size: contain;
+  /* background: #000000; */
+  background-size: var(--doodle-background-size);
   background-repeat: repeat;
-  z-index: 5;
+  background-position-x: center;
+  z-index: 12;
 }
 
 .songs-section-title {
@@ -38,12 +39,12 @@
 
 @keyframes divider-length {
 	0% {
-    width: 80%;
+    width: 100%;
 	}
 	50% {
     width: 100px;
 	}
 	100% {
-    width: 80%;
+    width: 100%;
 	}
 }

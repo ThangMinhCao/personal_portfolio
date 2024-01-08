@@ -1,13 +1,16 @@
 .new-release-container {
   position: relative;
-  height: 120vh;
+  height: 50vh;
+  min-height: 300px;
   width: 100%;
-  z-index: 1;
+  z-index: 10;
 
   left: 0;
   top: 0;
-  background: transparent;
-  /* box-shadow: rgb(114, 114, 114) 0px 0px 10px 5px inset; */
+
+  padding: 50px;
+  flex-direction: row !important;
+  justify-content: flex-end !important;
 }
 
 #current-release {
@@ -19,7 +22,7 @@
   font-family: 'Fjalla One', sans-serif;
   font-size: calc(1vw + 20px);
   text-align: right;
-  position: absolute;
+  /* position: absolute; */
   top: 50%;
   right: 20px;
   padding: 30px;
@@ -37,7 +40,6 @@
   top: 0;
 
   background: url(../../../../assets/backgrounds/music_background.jpeg);
-  background-color: black;
   background-size: cover;
   background-position: center;
 }

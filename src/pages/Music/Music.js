@@ -6,7 +6,7 @@ import NewRelease from "./sections/NewRelease/NewRelease";
 import Songs from "./sections/Songs/Songs";
 import { ScrollRestoration } from "react-router-dom";
 
-function Home() {
+function Music() {
   return (
     <div className="container music-container">
       <div className="button-bar music-button-bar">
@@ -17,8 +17,10 @@ function Home() {
       <Songs />
       <SocialLinks white music position="right" fixed />
       <ScrollRestoration />
+      <div id="music-background" />
+      <div className="transparent-doodles" />
     </div>
   );
 }
 
-export default Home;
+export default Music;

@@ -1,5 +1,5 @@
 .music-hero-container {
-  height: 100svh;
+  height: calc(100vh + var(--hero-bottom-offset));
   width: 100%;
   background: #00000055;
 }
@@ -11,15 +11,21 @@
   z-index: 2;
   backdrop-filter: blur(10px);
 }
+
 .portrait-container {
-  z-index: 9;
+  z-index: 5;
+}
+
+.transparent-portrait {
+  z-index: 15;
 }
 
 .big-portrait-container {
-  position: absolute;
-  height: 100svh;
-  width: 100%;
+  position: sticky;
+  height: 100lvh;
+  bottom: 0;
   top: 0;
+  width: calc(100% + 2 * var(--container-padding));
 }
 
 .big-portrait-cropper {
@@ -38,7 +44,7 @@
   z-index: 0;
   font-size: calc(4vw + 30px);
   position: absolute;
-  bottom: 15%;
+  top: 50lvh;
   left: 0;
   z-index: 9;
 }
@@ -52,13 +58,6 @@
   font-size: calc(1vw + 10px);
   padding-left: 10px;
   /* text-align: right; */
-}
-
-.music-arrow {
-  left: 0;
-  border-radius: 0 5px 0 0;
-  box-shadow: #fdfdfd61 0px 0px 10px 1px;
-  z-index: 9;
 }
 
 #name {

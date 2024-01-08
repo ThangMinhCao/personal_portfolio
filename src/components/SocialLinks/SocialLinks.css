@@ -80,6 +80,11 @@
   border-bottom: 3px dotted black;
 }
 
+.music-icon-button:hover {
+  opacity: 0.8;
+  border-bottom: none;
+}
+
 .white-icons > * {
   filter: brightness(0) invert(1);
 }
