@@ -1,10 +1,9 @@
 .links {
-  left: 0;
+  /* left: 0; */
   width: 100%;
   bottom: 0px;
   padding: 5px;
   padding-right: 10px;
-  /* position: absolute; */
   display: flex;
   z-index: 1000;
   align-items: center;
@@ -72,6 +71,7 @@
 }
 
 .music-icon-button {
+  /* margin: 0; */
   width: 22px;
   height: 30px;
 }
