@@ -12,7 +12,7 @@ function Songs({ containerRef }) {
     <MusicSection ref={containerRef} className="songs-container">
       <div className="songs-section-title">
         RELEASES
-        <div className="half-divider" style={{ background: "#000" }} />
+        <div className="half-divider" />
       </div>
       <div className="songs-content">
         <ReleaseCard

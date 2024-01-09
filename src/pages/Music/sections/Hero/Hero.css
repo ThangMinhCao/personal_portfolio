@@ -1,7 +1,6 @@
 .music-hero-container {
   display: block !important;
-  height: calc(100lvh + var(--hero-bottom-offset));
-  height: 360vh;
+  height: 450vh;
   width: 100%;
   background: #00000055;
   overflow: clip;
@@ -25,7 +24,7 @@
 
 .big-portrait-container {
   height: 100%;
-  width: calc(100% + 2 * var(--container-padding));
+  width: 100%;
 }
 
 .big-portrait-cropper {
@@ -42,12 +41,18 @@
 
 .music-title {
   padding: 5%;
-  z-index: 0;
+  top: 60vh;
   font-size: calc(4vw + 30px);
   position: absolute;
-  top: 60vh;
   left: 0;
-  z-index: 9;
+  z-index: 9999;
+}
+
+.second-page {
+  padding: 10px;
+  width: 10px;
+  top: 160vh;
+  font-size: calc(1vw + 20px);
 }
 
 #its-word {
@@ -65,40 +70,71 @@
   padding-left: 2px;
 }
 
-.doodles-overlay {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+.overlay-container {
   position: sticky;
   left: 0;
   top: 0;
-  width: 100%;
-  height: calc(var(--hero-bottom-offset));
-  background: url(../../../../assets/backgrounds/doodle_transparent.png);
-  background-size: calc(var(--doodle-background-size));
-  background-repeat: repeat;
-  background-position-x: center;
+  overflow: clip;
   z-index: 9;
 }
 
-.current-release-overlay {
-  --size: max(100vh, 100vw);
+.doodles-overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+
+  height: calc(var(--hero-bottom-offset));
+  background: url(../../../../assets/backgrounds/doodle_transparent.png);
+  background-size: calc(var(--doodle-background-size) / 1.2);
+  background-repeat: repeat;
+  background-position-x: center;
+  z-index: 2;
+
+  overflow: clip;
+}
+
+.new-release-overlay-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+
+.new-release-overlay {
+  position: relative;
   flex-shrink: 0;
+  --size: max(100vh, 100vw);
   width: var(--size);
   height: var(--size);
-  background: url(../../../../assets/backgrounds/music_background.jpeg);
-  background-size: cover;
-  background-position: center;
   z-index: 10;
 
   transform: scale(0.2) translate3d(0, 0, 0);
-  /* transform: translate3d(0, 0, 0); */
+  border-radius: 10%;
+  border: 10px solid white;
+}
+
+.bw-background-container {
+  position: absolute;
+  top: -100lvh;
+  width: 100%;
+  height: 200vh;
+  z-index: 0;
+}
+
+.bw-background {
+  position: sticky;
+  top: 0;
+  height: 100lvh;
+  z-index: 0;
 }
 
 .full-page-offset {
   position: absolute;
-  top: 100vh;
+  top: 110vh;
   height: 100vh;
   width: 100%;
 }

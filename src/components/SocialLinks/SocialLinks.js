@@ -41,7 +41,7 @@ const SocialLinks = ({
       style={{
         background: background ? background : "",
         position: fixed ? "fixed" : "absolute",
-        filter: `invert(${inverted ? 1 : 0})`,
+        // filter: `invert(${inverted ? 1 : 0})`,
       }}
     >
       <a target="_blank" rel="noopener noreferrer" href={FACEBOOK_LINK}>

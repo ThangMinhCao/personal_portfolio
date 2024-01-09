@@ -89,3 +89,7 @@
 .white-icons > * {
   filter: brightness(0) invert(1);
 }
+
+.white-icons > * {
+  mix-blend-mode: difference;
+}

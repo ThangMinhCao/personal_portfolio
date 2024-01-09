@@ -1,6 +1,5 @@
 :root {
   --social-link-height: 50px;
-  --container-padding: 0px;
   --hero-bottom-offset: 100vh;
   --doodle-background-size: 350px;
 }
@@ -28,8 +27,6 @@
   background: url(../../assets/backgrounds/music_background_doodle.png) no-repeat center center fixed;
   background-size: var(--doodle-background-size);
   background-repeat: repeat;
-  padding-left: var(--container-padding);
-  padding-right: var(--container-padding);
 }
 
 .text-wrapper {

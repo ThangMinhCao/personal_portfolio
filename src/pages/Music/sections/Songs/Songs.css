@@ -3,17 +3,13 @@
   display: block;
   width: 100%;
   padding: 10vw;
-  /* background: url(../../../../assets/backgrounds/music_background_doodle.png) no-repeat center center fixed; */
-  /* background-size: var(--doodle-background-size);
-  background-repeat: repeat;
-  background-position-x: center; */
-  backdrop-filter: invert(100%);
+  /* backdrop-filter: invert(100%); */
   z-index: 12;
 }
 
 .songs-section-title {
   width: 100%;
-  /* color: white; */
+  color: white;
   top: 100px;
   z-index: 16;
   font-family: 'Rubik Dirt', system-ui;
