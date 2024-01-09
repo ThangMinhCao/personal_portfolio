@@ -51,6 +51,7 @@
   justify-content: flex-start !important;
   transition: background 0.2s;
   overflow: hidden;
+  z-index: 9999;
 }
 
 .artist-name {

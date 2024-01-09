@@ -46,7 +46,7 @@
   font-size: calc(4vw + 30px);
   position: absolute;
   left: 0;
-  z-index: 9999;
+  z-index: 1;
 }
 
 .second-page {
