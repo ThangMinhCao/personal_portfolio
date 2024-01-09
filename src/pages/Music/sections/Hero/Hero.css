@@ -54,6 +54,7 @@
   width: 10px;
   top: 160vh;
   font-size: calc(1vw + 20px);
+  z-index: 999;
 }
 
 #its-word {

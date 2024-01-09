@@ -18,32 +18,7 @@
   justify-content: center;
 }
 
-.text-no-wrap {
-  white-space: nowrap;
-}
-
-@media only screen and (max-width: 900px) {
-  .links {
-    flex-direction: row;
-  }
-
-  .text-wrapper > * {
-    text-align: center;
-  }
-
-  .text-wrapper {
-    justify-content: flex-start;
-  }
-
-  .content {
-    flex-direction: column;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-}
-
 .music-button-bar {
-  /* position: sticky !important; */
   top: 0;
   left: 0;
   padding: 15px;
@@ -52,16 +27,6 @@
   transition: background 0.2s;
   overflow: hidden;
   z-index: 9999;
-}
-
-.artist-name {
-  font-family: 'Bebas Neue', sans-serif;
-  font-family: 'Hurricane', cursive;
-  font-family: 'Qwitcher Grypen', cursive;
-  position: absolute;
-  right: 15px;
-  bottom: 40px;
-  color: white;
 }
 
 .listen-button {
@@ -73,9 +38,4 @@
   font-size: calc(.8vw + 13px);
   font-family: 'Fjalla One', sans-serif;
   margin-top: 10px;
-}
-
-.black-filled {
-  background: #000;
-  transition: background .4s;
 }

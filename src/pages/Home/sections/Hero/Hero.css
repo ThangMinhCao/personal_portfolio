@@ -1,14 +1,8 @@
 .hero-container {
-  /* background: linear-gradient(25deg, #ffc7d7, #f5c4d2, #fff2bf, #d8ffbf, #bfffe3, #bff5ff, #b5d4f7, #a6cfff, #8ac0ff, #75b5ff, #57a5ff); */
-  /* background: linear-gradient(0deg, #ffa58e, #ffa58e, #ffb7a5, #ffc8ba, #ffcabf, #b4d7ff, #a6cfff, #8ac0ff, #75b5ff, #57a5ff); */
   background: linear-gradient(0deg, #ffa58e, #ffc0b4, #acd3ff, #93c5fe, #8ac0ff, #75b5ff, #57a5ff);
   background-size: 200% 200%;
   animation: gradient 5s ease infinite;
-
-  /* position: fixed; */
-  /* top: 0; */
   height: 100svh;
-  /* z-index: -1; */
 }
 
 .text-right {
@@ -37,7 +31,6 @@
   align-items: center;
   padding-bottom: 5px;
 
-  /* background: #00000045; */
   color: #ffffff;
   border-radius: 5px 0 0 0;
   box-shadow: #0000005f 0px 0px 5px 1px;

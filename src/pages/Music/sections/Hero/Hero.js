@@ -7,8 +7,10 @@ import { useRef } from "react";
 import NewRelease from "../NewRelease/NewRelease";
 import BTDArtwork from "../../../../assets/backgrounds/buc_thu_dau.jpeg";
 import BWBackground from "../../../../assets/portraits/2-sketch.jpeg";
+import { useWillChange } from "framer-motion";
 
 function MusicHero() {
+  const willChange = useWillChange();
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -33,7 +35,7 @@ function MusicHero() {
         <div className="overlay-container">
           <motion.div
             className="new-release-overlay-container"
-            style={{ scale: zoom2 }}
+            style={{ scale: zoom2, willChange }}
           >
             <img
               className="new-release-overlay"
@@ -43,7 +45,7 @@ function MusicHero() {
           </motion.div>
           <motion.div
             className="doodles-overlay"
-            style={{ scale: zoom, opacity: opacity2 }}
+            style={{ scale: zoom, opacity: opacity2, willChange }}
           />
           <div className="bw-background-container">
             <img
@@ -60,6 +62,7 @@ function MusicHero() {
             zIndex: 10,
             top: 0,
             opacity: opacity,
+            willChange
           }}
         >
           <NewRelease bgBlur={opacity} />
@@ -76,9 +79,13 @@ function MusicHero() {
         <p id="in-music-word" className="music-font"></p>
         <div style={{ marginLeft: 5 }} className="half-divider" />
       </div>
-      <motion.div className="music-title second-page music-font" style={{opacity: opacity3}}>
+      <motion.div
+        className="music-title second-page music-font"
+        style={{ opacity: opacity3, willChange }}
+      >
         <p className="music-font">
-          ... who makes music<GiMusicalNotes style={{ paddingLeft: 15, fontSize: 35 }} />
+          ... who makes music
+          <GiMusicalNotes style={{ paddingLeft: 15, fontSize: 35 }} />
         </p>
         <p id="in-music-word" className="music-font"></p>
       </motion.div>
