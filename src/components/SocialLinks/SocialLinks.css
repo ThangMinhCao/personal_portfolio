@@ -87,9 +87,5 @@
 }
 
 .white-icons > * {
-  filter: brightness(0) invert(1);
-}
-
-.white-icons > * {
-  mix-blend-mode: difference;
+  filter: brightness(0) invert(1) drop-shadow(0 0 10px #000);
 }
