@@ -18,11 +18,11 @@ function MusicHero() {
   });
   const { scrollYProgress: yProg2 } = useScroll({
     target: ref,
-    offset: ["0 1", "0.4 1"],
+    offset: ["0 1", "0.5 1"],
   });
   const { scrollYProgress: yProg3 } = useScroll({
     target: ref,
-    offset: ["0.35 1", "0 0"],
+    offset: ["0.45 1", "0.1 0"],
   });
   const zoom = useTransform(scrollYProgress, [0, 0.15, 1], [1, 1, 3.5]);
   const zoom2 = useTransform(scrollYProgress, [0, 0.15, 1], [0.01, 0.05, 5.5]);
@@ -32,7 +32,7 @@ function MusicHero() {
     [0, 0.15, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1],
     [0.015, 0.4, 0.5, 0.7, 1, 0.9, 1, 0.9, 1, 0.9, 1]
   );
-  const opacity3 = useTransform(yProg3, [0, 0.2, 0.8, 1], [0, 1, 1, 0]);
+  const opacity3 = useTransform(yProg3, [0, 0.2, 0.85, 1], [0, 1, 1, 0]);
   const opacity4 = useTransform(yProg2, [0, 0.8, 1], [1, 1, 0]);
 
   return (
