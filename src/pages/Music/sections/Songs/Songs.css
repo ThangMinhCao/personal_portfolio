@@ -1,14 +1,10 @@
 .songs-container {
   position: relative;
-  display: block;
-  width: 100%;
   padding: 10vw;
-  /* backdrop-filter: invert(100%); */
-  z-index: 12;
 
-  background: url(../../../../assets/backgrounds/music_background_doodle.png) no-repeat center center fixed;
+  background: url(../../../../assets/backgrounds/music_background_doodle.png);
   background-size: var(--doodle-background-size);
-  background-repeat: repeat;
+  background-position: center;
   filter: invert(100%);
   border: 2px dashed white;
 }
