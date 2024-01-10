@@ -29,7 +29,7 @@
   font-size: calc(4vw + 30px);
   position: fixed;
   left: 0;
-  z-index: 10;
+  z-index: 9;
   color: white;
   text-shadow: 0 0 10px #000;
 }
@@ -42,7 +42,7 @@
   padding: 10px;
   width: calc(20vw + 90px);
   font-size: calc(2vw + 20px);
-  z-index: 999;
+  z-index: 9;
 }
 
 #its-word {
@@ -92,7 +92,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 10;
+  z-index: 11;
 }
 
 

@@ -6,6 +6,7 @@
   background-size: calc(var(--doodle-background-size) / 0.8);
   background-position: center;
   border: 2px dashed white;
+  z-index: 20;
 }
 
 .songs-section-title {
