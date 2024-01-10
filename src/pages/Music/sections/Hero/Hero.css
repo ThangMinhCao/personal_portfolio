@@ -138,3 +138,9 @@
   bottom: 0;
   height: 100vh;
 }
+
+.arrow-direction {
+  position: fixed;
+  box-shadow: none;
+  left: 50%;
+}

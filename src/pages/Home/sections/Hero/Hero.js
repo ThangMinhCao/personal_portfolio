@@ -30,9 +30,6 @@ const Hero = () => {
           </div>
           <SocialLinks />
         </div>
-        {/* <div className="arrow-direction">
-          <FaAngleDoubleUp className="arrow-icon" />
-        </div> */}
       </div>
     </HomeSection>
   );

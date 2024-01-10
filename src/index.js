@@ -7,6 +7,7 @@ import {
 import Home from "./pages/Home/Home";
 import Music from "./pages/Music/Music";
 import ErrorPage from "./pages/ErrorPage/ErrorPage";
+import "./index.css";
 
 const router = createBrowserRouter([
   {

@@ -8,6 +8,7 @@ import NewRelease from "../NewRelease/NewRelease";
 import BTDArtwork from "../../../../assets/backgrounds/buc_thu_dau.jpeg";
 import BWBackground from "../../../../assets/portraits/2-sketch-black-bg.png";
 import { useWillChange } from "framer-motion";
+import { FaAngleDoubleUp } from "react-icons/fa";
 
 function MusicHero() {
   const willChange = useWillChange();
@@ -88,7 +89,7 @@ function MusicHero() {
           THANG
         </p>
         <p id="in-music-word" className="music-font"></p>
-        <div style={{ marginLeft: 5 }} className="half-divider" />
+        <div style={{ marginLeft: 5, background: "white" }} className="half-divider" />
       </motion.div>
       <motion.div
         className="music-title second-page music-font"
@@ -105,6 +106,9 @@ function MusicHero() {
         <p id="in-music-word" className="music-font"></p>
       </motion.div>
       <div ref={ref} className="full-page-offset" />
+      <div className="arrow-direction">
+        <FaAngleDoubleUp className="arrow-icon" />
+      </div>
     </MusicSection>
   );
 }
