@@ -5,7 +5,7 @@
   background: url(../../../../assets/backgrounds/music_white_background_doodle.png);
   background-size: calc(var(--doodle-background-size) / 0.8);
   background-position: center;
-  border: 2px dashed white;
+  border: 2px dashed black;
   z-index: 20;
 }
 
