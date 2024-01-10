@@ -2,16 +2,15 @@
   position: relative;
   padding: 10vw;
 
-  background: url(../../../../assets/backgrounds/music_background_doodle.png);
-  background-size: var(--doodle-background-size);
+  background: url(../../../../assets/backgrounds/music_white_background_doodle.png);
+  background-size: calc(var(--doodle-background-size) / 0.8);
   background-position: center;
-  filter: invert(100%);
   border: 2px dashed white;
 }
 
 .songs-section-title {
   width: 100%;
-  color: white;
+  color: black;
   top: 100px;
   z-index: 16;
   font-family: 'Rubik Dirt', system-ui;
@@ -26,13 +25,12 @@
 .songs-content {
   width: 100%;
   margin-top: 5%;
-  filter: invert(100%);
 }
 
 .half-divider {
   right: 0;
   height: 2.7px;
-  background: white;
+  background: black;
   animation: divider-length 3s infinite;
 }
 
