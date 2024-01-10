@@ -1,25 +1,26 @@
 .links {
   /* left: 0; */
-  width: 100%;
   bottom: 0px;
   padding: 5px;
   padding-right: 10px;
-  display: flex;
   z-index: 1000;
-  align-items: center;
   transition: filter 0.5s;
 }
 
 .centered-links {
+  display: flex;
+  align-items: center;
   justify-content: center;
+  width: 100%;
+  margin: auto;
 }
 
 .left-links {
-  justify-content: flex-start;
+  left: 0;
 }
 
 .right-links {
-  justify-content: flex-end;
+  right: 0;
 }
 
 .linkedin-button {

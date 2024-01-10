@@ -39,9 +39,6 @@ const Projects = () => {
       </div>
       <SocialLinks white />
       <span className="credit">Made by Minh Thang Cao</span>
-      {/* <div className="project-button-bar">
-        <MusicButton white />
-      </div> */}
     </HomeSection>
   );
 };
