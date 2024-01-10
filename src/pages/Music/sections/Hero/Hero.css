@@ -92,12 +92,14 @@
 
   height: calc(var(--hero-bottom-offset));
   background: url(../../../../assets/backgrounds/doodle_transparent.png);
-  background-size: calc(var(--doodle-background-size) / 1.2);
+  background-size: calc(var(--doodle-background-size) / 0.8);
   background-repeat: repeat;
   background-position-x: center;
   z-index: 2;
 
   overflow: clip;
+
+  /* filter: invert(100%); */
 }
 
 .new-release-overlay-container {

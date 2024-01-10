@@ -6,7 +6,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import NewRelease from "../NewRelease/NewRelease";
 import BTDArtwork from "../../../../assets/backgrounds/buc_thu_dau.jpeg";
-import BWBackground from "../../../../assets/portraits/2-sketch.png";
+import BWBackground from "../../../../assets/portraits/2-sketch-black-bg.png";
 import { useWillChange } from "framer-motion";
 
 function MusicHero() {
@@ -30,7 +30,7 @@ function MusicHero() {
   const opacity2 = useTransform(
     scrollYProgress,
     [0, 0.15, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1],
-    [0.015, 0.3, 0.4, 0.6, 1, 0.9, 1, 0.9, 1, 0.9, 1]
+    [0.015, 0.4, 0.5, 0.7, 1, 0.9, 1, 0.9, 1, 0.9, 1]
   );
   const opacity3 = useTransform(yProg3, [0, 0.2, 0.8, 1], [0, 1, 1, 0]);
   const opacity4 = useTransform(yProg2, [0, 0.8, 1], [1, 1, 0]);

@@ -5,6 +5,12 @@
   padding: 10vw;
   /* backdrop-filter: invert(100%); */
   z-index: 12;
+
+  background: url(../../../../assets/backgrounds/music_background_doodle.png) no-repeat center center fixed;
+  background-size: var(--doodle-background-size);
+  background-repeat: repeat;
+  filter: invert(100%);
+  border: 2px dashed white;
 }
 
 .songs-section-title {
@@ -24,6 +30,7 @@
 .songs-content {
   width: 100%;
   margin-top: 5%;
+  filter: invert(100%);
 }
 
 .half-divider {

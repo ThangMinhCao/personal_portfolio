@@ -6,9 +6,6 @@
 
 .music-container {
   overflow: clip;
-  background: url(../../assets/backgrounds/music_background_doodle.png) no-repeat center center fixed;
-  background-size: var(--doodle-background-size);
-  background-repeat: repeat;
 }
 
 .text-wrapper {
