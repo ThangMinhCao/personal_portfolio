@@ -1,7 +1,7 @@
 import "./Songs.css";
 import { MusicSection } from "../../../../components/Section";
 import ReleaseCard from "../../../../components/ReleaseCard/ReleaseCard";
-import BTDArtwork from "../../../../assets/album-covers/buc_thu_dau.jpg";
+import BTDArtwork from "../../../../assets/album-covers/buc_thu_dau.jpeg";
 import VMYRArtwork from "../../../../assets/album-covers/vi_minh_yeu_roi.jpeg";
 
 function Songs({ containerRef }) {
