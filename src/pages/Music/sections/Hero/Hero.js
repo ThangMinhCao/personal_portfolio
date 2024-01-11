@@ -1,5 +1,5 @@
 import "./Hero.css";
-import portrait from "../../../../assets/portraits/2.jpeg";
+import portrait from "../../../../assets/portraits/2.jpg";
 import { MusicSection } from "../../../../components/Section";
 import { GiMusicalNotes } from "react-icons/gi";
 import { motion, useScroll, useTransform } from "framer-motion";
