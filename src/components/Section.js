@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const HomeSection = styled.section`
+  min-height: 750px;
   min-width: 300px;
   width: 100%;
   position: relative;
