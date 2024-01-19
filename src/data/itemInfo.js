@@ -12,7 +12,7 @@ export const info = {
       title: "Teaching Assistant",
       date: "09/2020 - 12/2023",
       description:
-        "Assisting professors to guide students through materials of Computer Science courses. Marking assignments and giving students thorough feedback.",
+        "Assisted professors to guide students through materials of Computer Science courses. Graded assignments and giving students thorough feedback.",
     },
     {
       company: "Amazon",
