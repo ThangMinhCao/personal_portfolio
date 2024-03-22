@@ -19,7 +19,7 @@ const Education = () => {
                 Carleton University
               </Title>
               <Subtitle>
-                From 09/2019 - 12/2023
+                From 09/2019 - 03/2024
               </Subtitle>
               <LightText>
                 Bachelor's Degree of <span className="text-no-wrap">Computer Science,</span>
