@@ -20,7 +20,7 @@ export const info = {
       title: "Software Dev Intern",
       date: "05/2023 - 08/2023",
       description:
-        "Designed and developed the architecture of an Amazon product detail page preview for complex apparel size attribute on the Amazon Seller Central’s 1-on-1 item creation experience. This minimized incorrect input issues during product listing and reduced Amazon Retail’s total listing feature friction by 3% within 2.5 millions third-party sellers.",
+        "Developed a size preview on Amazon Seller Central’s 1-by-1 item creation experience to help sellers minimize invalid inputs during product listing, reduced listing error rate and monthly negative feedback on 1-by-1 item listing page by 5% for 2.5M+ sellers.",
     },
     {
       company: "Pattern",
